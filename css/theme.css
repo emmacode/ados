@@ -1,0 +1,167 @@
+html, body {
+  height: 100%;
+}
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.container-fluid {
+  padding: 60px 50px;
+}
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.bg-dark {
+  transition: 750ms ease;
+  background-color: transparent !important;
+}
+.block-content.about p {
+  line-height: 30px !important;
+}
+.bg-dark.scrolled {
+  background-color: #292929 !important;
+}
+
+.first {
+  /* image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hand.jpg');
+  padding-top: 140px;
+  /* height used */
+  min-height: 300px;
+  background-size: cover !important;
+  height: 85vh;
+  /* create parallex scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 17%;
+}
+.first-about {
+  /* image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('core\ value\ 2.png');
+  padding-top: 140px;
+  /* height used */
+  min-height: 300px;
+  background-size: cover !important;
+  height: 80vh;
+  /* create parallex scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 17%;
+}
+.h3_bold{
+  font-weight: bold;
+  font-size: 50px;
+  font-family: fantasy;
+}
+.h3_bold li{
+  font-size: 10px;
+}
+.nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.nav-link-black {
+  color: black;
+}
+
+.nav-link-white {
+  color: white;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+.padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+footer{
+  background-color: #292929;
+  color: #fff !important;
+}
+.li-link{
+  list-style: none;
+}
+.li-link a{
+  color:rgba(255, 255, 255, 0.623) !important;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+}
+.thumbnail-img{
+  transition: transform .2s;
+}
+.thumbnail-img:hover{
+    transform: scale(1.5); 
+}
+.thumbnail-p{
+  color: black !important;
+  font-size: 1.4rem !important;
+}
+.text-15 , .text-15 li {
+  font-size: 1.2rem !important;
+}
+.push{
+  position: relative;
+  top: 8rem;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+#gold{
+  color: #ffffff !important;
+}
+.heading{
+  color: #fff !important;
+  font-size: 12px;
+  font-weight: bold;
+}
+.strong-900 {
+  font-size: 40px;
+    font-weight: 600 !important;
+}
+.control-label{
+  font-size: 13px;
+  padding-top: 0px;
+}
+@media(max-width:800px){
+  
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .first {
+    height: 90vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('hand.jpg');
+  }
+  .first h2{
+    visibility: hidden;
+  }
+  .first ul{
+    visibility: hidden;
+  }
+  .first-about {
+    height: 90vh;
+}
+.push{
+  position: relative;
+  top: .1rem;
+}
+}
