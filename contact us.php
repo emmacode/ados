@@ -59,6 +59,38 @@
  </p>
 </div>
     </section>
+    <section>
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-lg-3"></div>
+               <div class="col-sm-9 col-md-12 col-lg-6">
+                  <h4 class="text-center">SEND US A MESSAGE</h4>
+                  <div class="form-group mb-0">
+                  <label class="control-label">Your name *</label>
+                  <input name="name" type="text" class="form-control">
+                  </div>
+                  <div class="form-group mb-0">
+                  <label class="control-label">Phone *</label>
+                  <input name="phone" type="text" class="form-control">
+                  </div>
+                  <div class="form-group mb-0">
+                  <label class="control-label">Email Address *</label>
+                  <input name="email" type="text" class="form-control">
+                  </div>
+                  <div class="form-group">
+                  <label class="control-label">Type Your Message *</label>
+                  <textarea class="form-control" name="message" rows="4"></textarea>
+                  </div>
+                  <div class="text-center mt-1 mb-4">
+                        <button type="submit" class="btn btn-sm">
+                            Send Message
+                        </button>
+                    </div>
+                  </div>
+               <div class="col-lg-3"></div>
+           </div>
+       </div>
+    </section>
     <footer>
         <div class="container">
             <div class="row">

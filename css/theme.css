@@ -15,7 +15,11 @@ h3 {
   font-weight: 400;
   font-size: 40px;
 }
-
+h4{
+  color: #000 !important;
+  font-size: 27px;
+  font-weight: 550;
+}
 .container-fluid {
   padding: 60px 50px;
 }
@@ -232,6 +236,7 @@ footer {
     height: 90vh;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('hand.jpg');
   }
+
   .first h2 {
     visibility: hidden;
   }
