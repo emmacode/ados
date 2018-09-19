@@ -7,6 +7,7 @@
     <meta name="author" content="Afolabi Moyinoluwa">
     <title>Order items from Amazon through Ados</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
@@ -40,81 +41,23 @@
 </nav>
 <!-- /.navbar -->
 
-<section class="first">
-    <div class="container">
-        <h2 class="strong-900 text-white">Buy items online <br> @ 310/$</h2>
-        <p>
-        <ul class="text-15">
-            <li>Visit Amazon.com</li>
-            <li>select items your want to order</li>
-            <li>Below desired item,share the item link to our contact</li>
-            <li>Chat with our Representative</li>
-        </ul>
-        </p>
+<section class="first-contact">
+<div class="container">
     </div>
 </section>
     <section>
         <div class="container-fluid text-center">
-            <h2>order in just 4 steps</h2>
-            <div class="row text-center">
-                <!-- Row 1 first column -->
-                <div class="col-sm-6">
-                    <strong>
-                                STEP 1
-                            </strong>
-                    <div class="thumbnail">
-                        
-                        <img class="thumbnail-img" src="images/step 1.jpg" alt="Step 1" width="200" height="200">
-                        <p class="thumbnail-p">
-                            Search for your desired item
-                        </p>
-                    </div>
-                </div>
-                <!-- Row 1 second column-->
-                <div class="col-sm-6">
-                    <strong>
-                                STEP 2
-                            </strong>
-                    <div class="thumbnail">
-                        
-                        <img class="thumbnail-img" src="images/step 2.jpg" alt="Step 1" width="200" height="200">
-                        <p class="thumbnail-p">
-                            Choose your desired specs for your item
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <br>
-                <!-- Row 2-->
-                <div class="row text-center">
-                <div class="col-sm-6">
-                    <strong>
-                                STEP 3
-                            </strong>
-                    <div class="thumbnail">
-                        
-                        <img class="thumbnail-img" src="images/step 3.jpg" alt="Step 1" width="200" height="200">
-                        <p class="thumbnail-p">
-                            Click the share button
-                        </p>
-                    </div>
-                </div>
-                <!-- Row 2 second column -->
-                <div class="col-sm-6">
-                    <strong>
-                                STEP 4
-                            </strong>
-                    <div class="thumbnail">
-                        
-                        <img class="thumbnail-img" src="images/step 4.jpg" alt="Step 1" width="200" height="200">
-                        <p class="thumbnail-p">
-                            Share to our whatsapp contact
-                        </p>
-                    </div>
-                </div>
-                </div>
-        </div>
-        </div>
+            <h3>Our Contact Details</h3>
+           <p class="mt-4">
+               <p class="lead">
+               <strong>  Phone Number : </strong>
+               +234-810-438-3073
+               <br>
+               <strong> Email Address : </strong> hello@ados.com
+               </p>
+               <i style="font-size:24px" class="fa">&#xf082;</i>
+ </p>
+</div>
     </section>
     <footer>
         <div class="container">
