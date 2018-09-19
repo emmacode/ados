@@ -55,7 +55,7 @@
                <br>
                <strong> Email Address : </strong> hello@ados.com
                </p>
-               <i style="font-size:24px" class="fa">&#xf082;</i>
+               <a href=""><i style="font-size:24px" class="fa">&#xf082;</i></a>
  </p>
 </div>
     </section>

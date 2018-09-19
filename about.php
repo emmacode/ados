@@ -68,9 +68,8 @@
             </div>
         </div>
     </div>
-        <div class="col-lg-2"></div>
-    </div>
-                        
+    <div class="col-lg-2"></div>
+    </div>                 
     </div>
     </div>
     </section> 
@@ -78,7 +77,7 @@
         <div class="container-fluid">
         <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6">
-        <img class="vision" src="images/networking_people.gif" alt="Our Vision" width="500" height="300">
+        <img class="vision" src="images/vision.jpeg" alt="Our Vision" width="500" height="300">
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
         <h3>Our Vision</h3>
@@ -97,7 +96,7 @@
 
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
-        <img class="mission" src="images/mission 1.png" alt="Our mission"  width="500" height="300">
+        <img class="mission" src="images/mission.jpg" alt="Our mission"  width="500" height="300">
         </div>
         </div>
         </div>
