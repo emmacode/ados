@@ -15,7 +15,7 @@
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
 <div class="container">
-    <a href="#" class="navbar-brand">
+    <a href="home.php" class="navbar-brand">
         <img src="images/ados e.png" alt="ADOS">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#adosResponsive">
@@ -24,16 +24,14 @@
     <div class="collapse navbar-collapse" id="adosResponsive">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item" href="#">
-                <a href="home.php" class="nav-link nav-lin">HOME</a>
+                <a href="home.php" class="nav-link">HOME</a>
             </li>
             <li class="nav-item" >
-                <a href="about.php" class="nav-link nav-lin">ABOUT US</a>
+                <a href="about.php" class="nav-link">ABOUT US</a>
             </li>
-            <li class="nav-item" >
-                <a href="#" class="nav-link nav-lin">LOCAL STORE</a>
-            </li>
+           
             <li class="nav-item">
-                <a href="contact us.php" class="nav-link nav-lin">CONTACT US</a>
+                <a href="contact us.php" class="nav-link">CONTACT US</a>
             </li>
         </ul>
     </div>
@@ -82,7 +80,7 @@
                   <textarea class="form-control" name="message" rows="4"></textarea>
                   </div>
                   <div class="text-center mt-1 mb-4">
-                        <button type="submit" class="btn btn-sm">
+                        <button type="submit" class="btn btn-sm submit-contact">
                             Send Message
                         </button>
                     </div>
@@ -111,7 +109,7 @@
                                     <a href="about.php" title="About Us">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="#" title="Local Store">Local Store</a>
+                                    <a href="localstore.php" title="Local Store">Local Store</a>
                                 </li>
                                 <li>
                                     <a href="contact us.php" title="Contact">Contact Us</a>
@@ -188,7 +186,7 @@
                             </div>
                         </div>
                     <div class="text-center mt-1 mb-4">
-                        <button type="submit" class="btn btn-sm">
+                        <button type="submit" class="btn btn-sm submit">
                             Send Message
                         </button>
                     </div>

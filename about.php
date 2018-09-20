@@ -22,17 +22,15 @@
     </button>
     <div class="collapse navbar-collapse" id="adosResponsive">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item" href="#">
-                <a href="home.php" class="nav-link nav-lin">HOME</a>
-            </li>
-            <li class="nav-item" >
-                <a href="#" class="nav-link nav-lin">ABOUT US</a>
-            </li>
-            <li class="nav-item" >
-                <a href="#" class="nav-link nav-lin">LOCAL STORE</a>
-            </li>
             <li class="nav-item">
-                <a href="contact us.php" class="nav-link nav-lin">CONTACT US</a>
+                <a href="home.php" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item" >
+                <a href="#" class="nav-link">ABOUT US</a>
+            </li>
+           
+            <li class="nav-item">
+                <a href="contact us.php" class="nav-link">CONTACT US</a>
             </li>
         </ul>
     </div>
@@ -81,7 +79,7 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
         <h3>Our Vision</h3>
-        <p class="mt-5 vision-p">
+        <p class="mt-5 vision-p slideanim">
         At Ados, our firm mental acceptance in high quality and exceptionally responsive customer service makes us one of the best around. This mental acceptance is based on our belief that online shopping should be just as uncomplicated as offline shopping and more comfortable , easier and more cost-effective than offline shopping. This is our move, and this is the reason why we will continue to strive to deliver the best products at the most affordable prices, ship them and get them delivered to you regardless of your geographical area and location.
         </p>
         </div>
@@ -121,7 +119,7 @@
                                     <a href="about.php" title="About Us">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="#" title="Local Store">Local Store</a>
+                                    <a href="localstore.php" title="Local Store">Local Store</a>
                                 </li>
                                 <li>
                                     <a href="contact us.php" title="Contact">Contact Us</a>
@@ -200,7 +198,7 @@
                             </div>
                         </div>
                     <div class="text-center mt-1 mb-4">
-                        <button type="submit" class="btn btn-sm">
+                        <button type="submit" class="btn btn-sm submit">
                             Send Message
                         </button>
                     </div>

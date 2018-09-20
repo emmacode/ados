@@ -3,5 +3,22 @@ $(document).ready(function () {
   $(window).scroll(function () {
     $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
   });
-  $('scrolled').css('color','red');
+  $(window).scroll(function () {
+    $(".slideanim").each(function () {
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+            $(this).addClass("slide");
+        }
+    });
 });
+});
+//automatic typing
+var string = "Welcome to Ados local store.";
+        var str = string.split("");
+        var el = document.getElementById('str');
+        (function animate() {
+            str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
+            var running = setTimeout(animate,90);
+        })();
