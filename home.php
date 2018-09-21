@@ -39,17 +39,18 @@
 <!-- /.navbar -->
 
 <section class="first">
-    <div class="container slideanim">
+    <div class="container animated bounceInUp">
         <h2 class="strong-900 text-white">Buy items online <br> @ 310/$</h2>
         <p>
         <ul class="text-15">
             <li>Visit Amazon.com</li>
-            <li>select items your want to order</li>
-            <li>Below desired item,share the item link to our contact</li>
+            <li>select the item you want to order</li>
+            <li>Below desired item, share the item link to our contact</li>
             <li>Chat with our Representative</li>
         </ul>
         </p>
     </div>
+
 </section>
     <section>
         <div class="container-fluid text-center">
@@ -115,110 +116,21 @@
         </div>
     </section>
     <footer>
-        <div class="container">
-            <div class="row">
-                <!-- First -->
-                <div class="col-sm-4 col-md-4 col-lg-4  mt-5">
-                    <div class="col">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
                         <img src="images/Ados e.png" alt="ADOS" width="250">
-                        <span class="clearfix"></span>
                     </div>
-                    <div class="row mt-5">
-                        <div class="col-md-6 mt-3">
-                            <h5 class="heading mb-2" id="gold">SITE MAP</h5>
-                            <ul class="list-unstyled li-link">
-                                <li>
-                                    <a href="home.php" title="Home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="about.php" title="About Us">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="localstore.php" title="Local Store">Local Store</a>
-                                </li>
-                                <li>
-                                    <a href="contact us.php" title="Contact">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 mt-3">
-                            <h5 class="heading mb-2" id="gold">SERVICES</h5>
-                            <ul class="list-unstyled li-link">
-                                <li>
-                                    <a href="#" title="Home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#" title="About Us">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Local Store">Local Store</a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Contact">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5><small> TWITTER</small></h5>
+                        <hr>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5><small> INSTAGRAM</small></h5>
+                        <hr>
                     </div>
                 </div>
-                <!-- Second -->
-                <div class="col-lg-4 col-sm-4 col-md-4 pt-5">
-                    <div class="col mt-5 push">
-                        <h5 class="heading mt-5 mb-4" id="gold">CONTACT US:</h5>
-                        <p class="">+234-810-438-3073 | hello@ados.com</p>
-                    </div>
-                </div>
-                <!-- Third -->
-                <div class="col-sm-4 col-md-4 col-lg-4 mt-5">
-                    <h5 class="heading text-uppercase mb-1" id="gold">Type Your Message</h5>
-                    <form class="form-default" action="sendHello" method="POST">
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="form-group mb-0">
-                                    <label class="control-label">Your name *</label>
-                                    <input name="name" type="text" class="form-control">
-                                    <span class="bar" ></span>
-                                </div>
-                            </div>
-
-                            <div class="col-6">
-                            <div class="form-group mb-0">
-                            <label class="control-label"> Phone *
-                            </label>
-                            <input name="phone" type="text" class="form-control">
-                            <span class="bar"></span>
-                            </div>
-                            </div>
-
-
-                            <div class="col-12">
-                                <div class="form-group mb-0">
-                                    <label class="control-label">Email address *</label>
-                                    <input name="email" type="text" class="form-control">
-                                    <span class="bar" ></span>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label class="control-label">Type Your Message *</label>
-                                    <textarea name="message" class="form-control" rows="4"></textarea>
-                                    <span class="bar" ></span>
-                                </div>
-                            </div>
-                        </div>
-                    <div class="text-center mt-1 mb-4">
-                        <button type="submit" class="btn btn-sm submit">
-                            Send Message
-                        </button>
-                    </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+            </div>    
     </footer>
     <script src="js/jquery.min.js" ></script>
     <script src="js/bootstrap.min.js"></script>
