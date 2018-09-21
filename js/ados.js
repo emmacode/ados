@@ -14,12 +14,11 @@ $(document).ready(function () {
             }
         });
     });
+    //tabs script
+$(".tabbed-content").each(function () { 
+    $(this).append('<ul class="content"></ul>') 
+}),
+     $(".tabs li").each(function () {
+          var a = $(this), b = ""; a.is(".tabs>li:first-child") && (b = ' class="active"'); var c = a.find(".tab-content").detach().wrap("<li" + b + "></li>").parent(); a.closest(".tabbed-content").find(".content").append(c) }), $(".tabs li").click(function () { $(this).closest(".tabs").find("li").removeClass("active"), $(this).addClass("active"); var a = $(this).index() + 1; $(this).closest(".tabbed-content").find(".content>li").removeClass("active"), $(this).closest(".tabbed-content").find(".content>li:nth-of-type(" + a + ")").addClass("active") 
+        })
 });
-//automatic typing
-var string = "Welcome to Ados local store.";
-var str = string.split("");
-var el = document.getElementById('str');
-(function animate() {
-    str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
-    var running = setTimeout(animate, 90);
-})();

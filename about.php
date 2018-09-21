@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Afolabi Moyinoluwa">
     <title>Order items from Amazon through Ados</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/theme.css">
@@ -40,7 +41,7 @@
 
 <section class="first-about">
     <div class="container">
-        <h3 class="h3_bold"></h3>
+        <h3 class="h3_bold">About Us</h3>
         <p>
         <ul class="text-15">
             
@@ -49,56 +50,45 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid bg-grey">
-    <div class="text-center mb-4">
-     <h3>About ADOS</h3>
-</div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-2"></div>
-                <div class="col-12 col-lg-8">
-        <div>
-                <div class="block-content about slideanim ">
-    <p>
-    Hello a cordial welcome to ADOS, a top Nigeria website for a large shopping experience for every opportunity. <br> ADOS was established as a customer-equidistant startup on a mission to alleviate people of the stress of getting their desirable goods,there by keeping them happy at prices that are AFFORDABLE and FAVOURABLE. <br>
-    We go through careful process to check for the quality of our goods and work with only RELIABLE and SUITABLE supplies so that only best quality are on offer. 
-    </p>
-            </div>
-        </div>
+    <div class="container tab-top">
+    <div class="row">
+    <div class="col-sm-12 text-center mb-5">
+        <h3 class="mb64 mb-xs-24 mb-5">Diversity and difference are our guiding principles.<br /> Our approach is tailored and unique to each customer.</h3>
+    <div class="tabbed-content button-tabs mb-5">
+    <ul class="tabs">
+        <li class="active">
+     <div class="tab-title">
+        <span>History</span>
     </div>
-    <div class="col-lg-2"></div>
-    </div>                 
+    <div class="tab-content">
+        <p>Hello, a cordial welcome to Ados.com, a top Nigeria website for a large shopping experience for every favourable opportunity. Ados was established as a customer-equidistant startup on a mission to alleviate people of the stress of getting their desirable goods, thereby keeping them happy at prices that are AFFORDABLE and FAVOURABLE.We are a company that is committed to guaranteeing you quality at an AMAZINGLY AFFORDABLE price, We go through careful process to check for the quality of our goods and work with only RELIABLE and SUITABLE suppliers so that only the best quality products are on offer.</p>
     </div>
+    </li>
+    <li>
+    <div class="tab-title">
+        <span>Vision</span>
     </div>
-    </section> 
-        <section>
-        <div class="container-fluid">
-        <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6">
-        <img class="vision" src="images/vision.jpeg" alt="Our Vision" width="500" height="300">
+    <div class="tab-content">
+        <p>At Ados, our firm mental acceptance in high quality and exceptionally responsive customer service makes us one of the best around. This mental acceptance is based on our belief that online shopping should be just as uncomplicated as offline shopping and more comfortable, easier and more cost-effective than offline shopping, This is Our move, and this is the reason why we will continue to strive to deliver the best products at the most AFFORDABLE prices, ship them and get them delivered to You regardless of Your geographical area and location.</p>
+    </div>
+    </li>
+    <li>
+        <div class="tab-title">
+            <span>Mission</span>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6">
-        <h3>Our Vision</h3>
-        <p class="mt-5 vision-p slideanim">
-        At Ados, our firm mental acceptance in high quality and exceptionally responsive customer service makes us one of the best around. This mental acceptance is based on our belief that online shopping should be just as uncomplicated as offline shopping and more comfortable , easier and more cost-effective than offline shopping. This is our move, and this is the reason why we will continue to strive to deliver the best products at the most affordable prices, ship them and get them delivered to you regardless of your geographical area and location.
-        </p>
+    <div class="tab-content">
+                    <p></p>
+    </div>
+    </li>
+    </ul>
+    </div>
+    <!-- end of button tabs -->
+    </div>
         </div>
-        </div>
-        </div>
-        </section>
-        <section>
-        <div class="container-fluid bg-grey">
-        <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6">
-            <h3>Our Mission</h3>
-
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-6">
-        <img class="mission" src="images/mission.jpg" alt="Our mission"  width="500" height="300">
-        </div>
-        </div>
-        </div>
-        </section>
+    <!-- end of row -->
+    </div>
+    <!-- end of container -->
+</section>
     <footer>
             <div class="container-fluid">
                 <div class="row">
@@ -117,6 +107,7 @@
             </div>    
     </footer>
     <script src="js/jquery.min.js" ></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
    <script src="js/ados.js" ></script>
 </body>

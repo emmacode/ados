@@ -44,52 +44,18 @@
     </div>
 </section>
     <section>
-        <div class="container-fluid text-center">
-            <h3>Our Contact Details</h3>
-           <p class="mt-4">
-               <p class="lead">
-               <strong>  Phone Number : </strong>
-               +234-810-438-3073
-               <br>
-               <strong> Email Address : </strong> hello@ados.com
-               </p>
-               <a href=""><i style="font-size:24px" class="fa">&#xf082;</i></a>
- </p>
-</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <h4 class="mb-4">GET IN TOUCH</h4>
+                    <p>At Ados our firm mental ppyqfwbsbdfji</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-       <div class="container-fluid">
-           <div class="row">
-               <div class="col-lg-3"></div>
-               <div class="col-sm-9 col-md-12 col-lg-6">
-                  <h4 class="text-center">SEND US A MESSAGE</h4>
-                  <div class="form-group mb-0">
-                  <label class="control-label">Your name *</label>
-                  <input name="name" type="text" class="form-control">
-                  </div>
-                  <div class="form-group mb-0">
-                  <label class="control-label">Phone *</label>
-                  <input name="phone" type="text" class="form-control">
-                  </div>
-                  <div class="form-group mb-0">
-                  <label class="control-label">Email Address *</label>
-                  <input name="email" type="text" class="form-control">
-                  </div>
-                  <div class="form-group">
-                  <label class="control-label">Type Your Message *</label>
-                  <textarea class="form-control" name="message" rows="4"></textarea>
-                  </div>
-                  <div class="text-center mt-1 mb-4">
-                        <button type="submit" class="btn btn-sm submit-contact">
-                            Send Message
-                        </button>
-                    </div>
-                  </div>
-               <div class="col-lg-3"></div>
-           </div>
-       </div>
-    </section>
-    <footer>
     <footer>
             <div class="container-fluid">
                 <div class="row">
@@ -107,9 +73,11 @@
                 </div>
             </div>    
     </footer>
-    </footer>
     <script src="js/jquery.min.js" ></script>
     <script src="js/bootstrap.min.js"></script>
    <script src="js/ados.js" ></script>
 </body>
 </html>
+
+
+

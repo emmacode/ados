@@ -54,7 +54,7 @@
 </section>
     <section>
         <div class="container-fluid text-center">
-            <h2>order in just 4 steps</h2>
+            <h2>ORDER IN JUST 4 STEPS</h2>
             <div class="row text-center">
                 <!-- Row 1 first column -->
                 <div class="col-sm-6">
