@@ -53,7 +53,7 @@
     <div class="container tab-top">
     <div class="row">
     <div class="col-sm-12 text-center mb-5">
-        <h3 class="mb64 mb-xs-24 mb-5">Diversity and difference are our guiding principles.<br /> Our approach is tailored and unique to each customer.</h3>
+        <h2 class="mb-5">Diversity and difference are our guiding principles.<br /> Our approach is tailored and unique to each customer.</h2>
     <div class="tabbed-content button-tabs mb-5">
     <ul class="tabs">
         <li class="active">
@@ -69,6 +69,7 @@
         <span>Vision</span>
     </div>
     <div class="tab-content">
+        <img src="images/vision.jpeg" alt="CAMERA" width="250">
         <p>At Ados, our firm mental acceptance in high quality and exceptionally responsive customer service makes us one of the best around. This mental acceptance is based on our belief that online shopping should be just as uncomplicated as offline shopping and more comfortable, easier and more cost-effective than offline shopping, This is Our move, and this is the reason why we will continue to strive to deliver the best products at the most AFFORDABLE prices, ship them and get them delivered to You regardless of Your geographical area and location.</p>
     </div>
     </li>
@@ -77,7 +78,8 @@
             <span>Mission</span>
         </div>
     <div class="tab-content">
-                    <p></p>
+        <img src="images/mission.jpg" alt="TARGET" width="250">
+                    <p>With our innovative, creative and motivated team, We live to be always be industrious so that we put smile to your face.</p>
     </div>
     </li>
     </ul>

@@ -39,23 +39,38 @@
 </nav>
 <!-- /.navbar -->
 
-<section class="first-contact">
-<div class="container">
+<div class="main-container">
+<section class="page-title page-title-4 bg-secondary">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <h3 class="uppercase mb0">Contact Us</h3>
+    </div>
+    </div>
     </div>
 </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
-                    <h4 class="mb-4">GET IN TOUCH</h4>
-                    <p>At Ados our firm mental ppyqfwbsbdfji</p>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-6">
+</div>
 
-                </div>
-            </div>
-        </div>
-    </section>
+   <section class="image-square left">
+       <div class="col-md-6 image">
+           <div class="background-image-holder">
+               <img src="images/office.jpeg" alt="office" class="background-image" width="700" height="640">
+           </div>
+       </div>
+       <div class="col-md-6 col-md-offset-1 content">
+           <h4 class="uppercase">Get In Touch</h4>
+           <p>
+           At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+           </p>
+           <hr>
+           <p>
+               <strong>Email:</strong> hello@ados.com
+               <br>
+               <strong>Phone:</strong> +2349060242202
+               <br>
+           </p>
+       </div>
+   </section>
     <footer>
             <div class="container-fluid">
                 <div class="row">

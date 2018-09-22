@@ -14,6 +14,119 @@ html, body {
   padding: 60px 50px;
 }
 
+.main-container {
+  clear: both;
+}
+
+.page-title {
+  padding: 0;
+}
+
+.page-title .container {
+  position: relative;
+  transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0);
+  top: 50%;
+  z-index: 2;
+}
+
+.page-title-4 {
+  height: 240px;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+.bg-secondary {
+  background: #f8f8f8 !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.image-square {
+  height: 50vw;
+  max-height: 640px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.image-square .image, .image-square>.content {
+  position: absolute;
+}
+
+.image-square .image {
+  height: 100%;
+}
+
+.image-square>.content {
+  padding: 0 10%;
+  top: 80%;
+  transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+}
+
+.image-square.left .image {
+  left: 0;
+}
+
+.image-square.left>.content {
+  right: 0;
+}
+
+.background-image-holder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-position: 50% 50% !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+.background-image-holder img {
+  display: flex;
+}
+
+@media all and (max-width: 990px) {
+  .image-square {
+    height: auto;
+    max-height: 100000px;
+    padding-bottom: 48px;
+  }
+  .image-square .image, .image-square>.content {
+    position: relative;
+  }
+  .image-square .image {
+    height: 100vw;
+    margin-bottom: 48px;
+    max-height: 500px;
+  }
+  .image-square>.content {
+    top: 0;
+    transform: none;
+    -webkit-transform: none;
+    padding-top: 30%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .image-square>.content {
+    padding-top: 100%;
+  }
+}
+
+.uppercase {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 /* FOOTER */
 
 footer {
@@ -43,7 +156,7 @@ footer {
   /* height used */
   min-height: 300px;
   background-size: cover !important;
-  height: 85vh;
+  height: 70vh;
   /* create parallex scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -60,7 +173,7 @@ footer {
   /* height used */
   min-height: 300px;
   background-size: cover !important;
-  height: 80vh;
+  height: 70vh;
   /* create parallex scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -72,18 +185,18 @@ footer {
 
 .first-contact {
   /* image used */
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('contact us.jpg');
+  background: rgba(147, 147, 147, 0.116);
   padding-top: 140px;
   /* height used */
   min-height: 300px;
   background-size: cover !important;
-  height: 80vh;
+  height: 50vh;
   /* create parallex scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #000;
   padding-top: 17%;
 }
 
@@ -113,7 +226,7 @@ footer {
 /* NAVIGATION */
 
 .nav-link {
-  color: #949494 !important;
+  color: rgb(147, 147, 147) !important;
 }
 
 .nav-color {
@@ -139,6 +252,10 @@ footer {
 
 .navbar-brand img {
   height: 50px;
+}
+
+.navbar-toggler {
+  background-color: rgb(147, 147, 147) !important;
 }
 
 /* END OF NAVIGATION */
@@ -228,7 +345,7 @@ footer {
 }
 
 .tab-top {
-  padding-top: 7rem;
+  padding-top: 6rem;
 }
 
 @media(max-width:766px) {
@@ -241,6 +358,10 @@ footer {
 /* END OF TABBED CONTENT */
 
 /* TYPOGRAPHY */
+
+h3 {
+  font-weight: 500;
+}
 
 /* END OF TYPOGRAPHY */
 
@@ -287,10 +408,6 @@ hr {
   font-size: 1.2rem !important;
 }
 
-.bg-grey {
-  background-color: #f6f6f6;
-}
-
 .heading {
   color: #fff !important;
   font-size: 12px;
@@ -300,12 +417,4 @@ hr {
 .control-label {
   font-size: 13px;
   padding-top: 0px;
-}
-
-.mb64 {
-  margin-bottom: 64px;
-}
-
-.mb-xs-24 {
-  margin-bottom: 24px;
 }
