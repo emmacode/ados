@@ -1,9 +1,10 @@
 /* 
 1 - FOOTER
-2- IMAGE LAYERS
-3- NAVIGATION
-4- TABBED CONTENT
-5- TYPOGRAPHY
+2- FORMS
+3- IMAGE LAYERS
+4- NAVIGATION
+5- TABBED CONTENT
+6- TYPOGRAPHY
 */
 
 html, body {
@@ -126,6 +127,86 @@ img {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+/* FORMS */
+
+input, button, textarea {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input[type="text"], button, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type="text"] {
+  background: #f5f5f5;
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  border-radius: 0;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  background: #f5f5f5;
+  margin-bottom: 24px;
+  border-radius: 0;
+  padding: 16px 20px;
+}
+
+::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #777;
+  font-size: 11px;
+}
+
+:-moz-placeholder {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #777;
+  font-size: 11px;
+}
+
+::-moz-placeholder {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #777;
+  font-size: 11px;
+}
+
+:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #777;
+  font-size: 11px;
+}
+
+button[type="submit"] {
+  height: 50px;
+  line-height: 48px;
+  border: 2px solid #47b475;
+  background: #47b475;
+  color: #fff;
+  width: 100%;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 0 !important;
+}
+
+/* END OF FORMS */
 
 /* FOOTER */
 

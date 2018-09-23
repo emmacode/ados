@@ -71,6 +71,24 @@
            </p>
        </div>
    </section>
+   <section>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+    <div class=" col-md-6">
+        <form class="form-group" action="<?php echo ['PHP_SELF'] ?>">
+        <h6 class="uppercase text-center">Send A Message</h6>
+        <input type="text" class="" name="name" placeholder="Your Name">
+        <input type="text" class="" name="phone" placeholder="Phone">
+        <input type="text" class="" name="email" placeholder="Email Address">
+        <textarea name="message" rows="4" placeholder="Message"></textarea>
+        <button name="submit" type="submit">Send Message</button>
+        </form>
+    </div>
+    <div class="col-md-3"></div>
+    </div>
+    </div>
+   </section>
     <footer>
             <div class="container-fluid">
                 <div class="row">
