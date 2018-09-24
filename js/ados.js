@@ -1,7 +1,7 @@
 $(document).ready(function () {
     //Change color on scroll
     $(window).scroll(function () {
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() >= 500);
     });
 
     $(window).scroll(function () {
@@ -23,4 +23,12 @@ $(document).ready(function () {
         }), $(".tabs li").click(function () {
             $(this).closest(".tabs").find("li").removeClass("active"), $(this).addClass("active"); var a = $(this).index() + 1; $(this).closest(".tabbed-content").find(".content>li").removeClass("active"), $(this).closest(".tabbed-content").find(".content>li:nth-of-type(" + a + ")").addClass("active")
         })
+});
+//change logo image on scroll
+$(document).scroll(function () {
+    if ($(this).scrollTop() >= 500) {
+        $('.navbar-brand').html("<img src='images/Ados-e 3.png'>")
+    } else {
+        $('.navbar-brand').html("<img src='images/Ados-e 4.png'>");
+    }
 });

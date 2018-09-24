@@ -14,8 +14,8 @@
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
 <div class="container">
-    <a href="#" class="navbar-brand">
-        <img src="images/ados e.png" alt="ADOS">
+    <a href="home.php" class="navbar-brand">
+        <img src="images/Ados-e 4.png" alt="ADOS">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#adosResponsive">
         <span class="navbar-toggler-icon" ></span>
@@ -53,7 +53,7 @@
 
 </section>
     <section>
-        <div class="container-fluid text-center">
+        <div class="container text-center">
             <h2>ORDER IN JUST 4 STEPS</h2>
             <div class="row text-center">
                 <!-- Row 1 first column -->
@@ -119,7 +119,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-lg-4">
-                        <img src="images/Ados e.png" alt="ADOS" width="250">
+                        <img src="images/Ados-e 3.png" alt="ADOS" width="250">
                     </div>
                     <div class="col-sm-4 col-md-4 col-lg-4">
                         <h5><small> TWITTER</small></h5>
