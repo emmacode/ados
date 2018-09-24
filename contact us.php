@@ -57,7 +57,7 @@
                <img src="images/office.jpeg" alt="office" class="background-image" width="700" height="640">
            </div>
        </div>
-       <div class="col-md-6 col-md-offset-1 content">
+       <div class="col-md-6  content">
            <h4 class="uppercase">Get In Touch</h4>
            <p>
            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
@@ -120,14 +120,14 @@
                         </h6>
                         <div class="col-sm-6">
                             <p>Individual</p>
-                            <div class="radio-button">
+                            <div class="radio-option">
                                 <div class="inner"></div>
                                 <input type="radio" name="individual" value="individual">
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <p>Company</p>
-                            <div class="radio-button">
+                            <div class="radio-option">
                                 <div class="inner"></div>
                                 <input type="radio" name="company" value="company">
                             </div>
@@ -136,14 +136,14 @@
                     </div>
     <div class="overflow-hidden">
             <h6 class="uppercase">Your Details</h6>
-        <input type="text" name="name" class="col-md-6" placeholder="Your Name*">
-        <input type="text" name="phone" class="col-md-6" placeholder="Your Current Phone Number*">
+        <input type="text" name="name" class="col-md-6 col-lg-6" placeholder="Your Name*">
+        <input type="text" name="phone" class="col-md-6 col-lg-6" placeholder="Your Current Phone Number*">
         <input type="text" name="email" placeholder="Your Current Email Address*">
-        <input type="text" name="link" placeholder="Put Link of Item You want to order Here">
+        <input type="text" name="link" placeholder="Put Link of Item You want to order Here*">
         <textarea name="message" rows="2" placeholder="Type Your Message*"></textarea>
                     </div>
                     <div class="overflow-hidden">
-                        <div class="col-sm-6 col-sm-offset-3">
+                        <div class="col-sm-6">
                             <h6 class="uppercase">Lastly, how did you hear about us?</h6>
                             <div class="select-option">
                             <select name="referrer">
