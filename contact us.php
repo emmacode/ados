@@ -77,7 +77,7 @@
                 <div class="col-md-2 col-sm-1"></div>
             <div class="col-md-8 col-sm-10">
             <div class="feature boxed bg-secondary">
-                <form method="POST" action="" class="text-center">
+                <form method="POST" action="" class="text-center form-email">
                     <h4 class="uppercase mt48 mt-xs-0">Order through Us Today</h4>
                     <p class="lead mb64 mb-xs-24">Share details about what you want to order.</p>
                     <div class="overflow-hidden">
@@ -136,14 +136,14 @@
                     </div>
     <div class="overflow-hidden">
             <h6 class="uppercase">Your Details</h6>
-        <input type="text" name="name" class="col-md-6 col-lg-6" placeholder="Your Name*">
-        <input type="text" name="phone" class="col-md-6 col-lg-6" placeholder="Your Current Phone Number*">
+        <input type="text" name="name" class="col-md-6" placeholder="Your Name*">
+        <input type="text" name="phone" class="col-md-6" placeholder="Your Current Phone Number*">
         <input type="text" name="email" placeholder="Your Current Email Address*">
         <input type="text" name="link" placeholder="Put Link of Item You want to order Here*">
         <textarea name="message" rows="2" placeholder="Type Your Message*"></textarea>
                     </div>
                     <div class="overflow-hidden">
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <h6 class="uppercase">Lastly, how did you hear about us?</h6>
                             <div class="select-option">
                             <select name="referrer">
@@ -181,7 +181,7 @@
     </footer>
     <script src="js/jquery.min.js" ></script>
     <script src="js/bootstrap.min.js"></script>
-   <script src="js/ados.js" ></script>
+   <script src="js/hello.js" ></script>
 </body>
 </html>
 
