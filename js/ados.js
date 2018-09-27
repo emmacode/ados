@@ -4,16 +4,6 @@ $(document).ready(function () {
         $('nav').toggleClass('scrolled', $(this).scrollTop() >= 500);
     });
 
-    $(window).scroll(function () {
-        $(".slideanim").each(function () {
-            var pos = $(this).offset().top;
-
-            var winTop = $(window).scrollTop();
-            if (pos < winTop + 600) {
-                $(this).addClass("slide");
-            }
-        });
-    });
     //tabs script
     $(".tabbed-content").each(function () {
         $(this).append(
@@ -69,6 +59,6 @@ $(document).scroll(function () {
             "<img src='images/Ados-e 3.png'>")
     } else {
         $('.navbar-brand').html(
-            "<img src='images/Ados-e 4.png'>");
+            "<img src='images/Ados-e-4.png'>");
     }
 });

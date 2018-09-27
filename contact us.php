@@ -16,7 +16,7 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
 <div class="container">
     <a href="home.php" class="navbar-brand">
-        <img src="images/Ados-e 4.png" alt="ADOS">
+        <img src="images/Ados-e-4.png" alt="ADOS">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#adosResponsive">
         <span class="navbar-toggler-icon" ></span>
@@ -74,114 +74,145 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-2 col-sm-1"></div>
-            <div class="col-md-8 col-sm-10">
-            <div class="feature boxed bg-secondary">
-                <form method="POST" action="" class="text-center form-email">
-                    <h4 class="uppercase mt48 mt-xs-0">Order through Us Today</h4>
-                    <p class="lead mb64 mb-xs-24">Share details about what you want to order.</p>
-                    <div class="overflow-hidden">
-                        <hr>
-                        <h6 class="uppercase">
-                           1. What category of item do you want to order?
-                        </h6>
-                        <div class="col-sm-4">
-                            <p class="mb16">
-                                Electronics & Accesories
-                            </p>
-                            <div class="checkbox-option text-left">
-                                <div class="inner"></div>
-                                <input type="checkbox" name="electronics" value="electronics">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <p class="mb16">
-                                Bags & Shoes
-                            </p>
-                            <div class="checkbox-option text-left">
-                                <div class="inner"></div>
-                                <input type="checkbox" name="bags" value="bags">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <p class="mb16">
-                                Books
-                            </p>
-                            <div class="checkbox-option text-left">
-                                <div class="inner"></div>
-                            <input type="checkbox" name="books" value="books">
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="overflow-hidden">
-                        <h6 class="uppercase">
-                            2. Select if Individual or Company
-                        </h6>
-                        <div class="col-sm-6">
-                            <p>Individual</p>
-                            <div class="radio-option">
-                                <div class="inner"></div>
-                                <input type="radio" name="individual" value="individual">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <p>Company</p>
-                            <div class="radio-option">
-                                <div class="inner"></div>
-                                <input type="radio" name="company" value="company">
-                            </div>
-                        </div>
-                        <hr>
-                    </div>
-    <div class="overflow-hidden">
-            <h6 class="uppercase">Your Details</h6>
-        <input type="text" name="name" class="col-md-6" placeholder="Your Name*">
-        <input type="text" name="phone" class="col-md-6" placeholder="Your Current Phone Number*">
-        <input type="text" name="email" placeholder="Your Current Email Address*">
-        <input type="text" name="link" placeholder="Put Link of Item You want to order Here*">
-        <textarea name="message" rows="2" placeholder="Type Your Message*"></textarea>
-                    </div>
-                    <div class="overflow-hidden">
-                        <div class="col-md-6">
-                            <h6 class="uppercase">Lastly, how did you hear about us?</h6>
-                            <div class="select-option">
-                            <select name="referrer">
-                                <option selected value="Default">Select An Option</option>
-                                <option value="website">Our Website</option>
-                                <option value="friend">Friend</option>
-                            </select>
-                            </div>
-                            <button type="submit">Submit Your Order</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+        <div class=" feature boxed bg-secondary">
+<form action="" class="text-center">
+<h4 class="uppercase mt48 mt-xs-0">ORDER THROUGH US TODAY</h4>
+<p class="lead mb64 mb-xs-24">Share details about what you want to order</p>
+<div class="overflow-hidden">
+<hr>
+<h6 class="uppercase">1. WHAT CATEGORY OF ITEM DO YOU WANT TO ORDER?</h6>
+    <div class="row">
+    <div class="col-sm-3">
+    <p class="mb16">Electronics</p>
+    <div class="checkbox-option text-left">
+        <div class="inner"></div>
+        <input type="checkbox" name="electronics" value="electronics">
+    </div>
+</div>
+<div class="col-sm-3">
+    <p class="mb16">Bags & Shoes</p>
+    <div class="checkbox-option text-left">
+        <div class="inner"></div>
+        <input type="checkbox" name="bags" value="bags">
+    </div>
+</div>
+<div class="col-sm-3">
+    <p class="mb16">Books</p>
+    <div class="checkbox-option text-left">
+        <div class="inner"></div>
+        <input type="checkbox" name="books" value="books">
+    </div>
+</div>
+<div class="col-sm-3">
+    <p class="mb16">Jersey</p>
+    <div class="checkbox-option text-left">
+        <div class="inner"></div>
+        <input type="checkbox" name="jersey" value="jersey">
+    </div>
+</div>
+    </div>
+<hr>
+</div>
+<div class="overflow-hidden">
+<h6 class="uppercase">2. SELECT IF INDIVIDUAL OR COMPANY</h6>
+<div class="row">
+<div class="col-sm-6">
+    <p>INDIVIDUAL</p>
+    <div class="radio-option">
+        <div class="inner"></div>
+        <input type="radio" name="rdn" value="indi">
+    </div>
+</div>
+<div class="col-sm-6">
+    <p>COMPANY</p>
+    <div class="radio-option">
+        <div class="inner"></div>
+        <input type="radio" name="rdn" value="indi">
+    </div>
+</div>
+</div>
+<hr>
+</div>
+<div class="overflow-hidden">
+<h6 class="uppercase">3. YOUR DETAILS</h6>
+<input type="text" name="name" class="col-md-6" placeholder="Your Name*">
+<input type="text" name="phone" class="col-md-6" placeholder="Your Phone*">
+<input type="text" name="email" placeholder="Your Current Email Address*">
+<input type="text" name="link" placeholder="Put Link of Item you want to order here*">
+<textarea name="message" rows="2" placeholder="Type Your Message"></textarea>
+</div>
+<div class="overflow-hidden">
+    <h6 class="uppercase">4. Lastly, how did you hear of us?</h6>
+    <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+    <div class="select-option">
+        <select name="referrer">
+            <option selected value="Default">Select An Option</option>
+            <option value="google">Google</option>
+            <option value="website">Our Website</option>
+            <option value="friend">A Friend</option>
+            <option value="other">Other</option>
+        </select>
+</div>
+<button type="submit">Submit Order</button>
+</div>
+<div class="col-sm-3"></div>
+</div>
+    
+</div>
+</form>
         </div>
-        <div class="col-md-2 col-sm-1"></div>
+                </div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </section>
     <footer>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <img src="images/Ados-e 3.png" alt="ADOS" width="250">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <img src="images/Ados-e 3.png" alt="ADOS"  class="logo">
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <h5><small> TWITTER</small></h5>
-                        <hr>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <h5><small> INSTAGRAM</small></h5>
-                        <hr>
-                    </div>
-                </div>
-            </div>    
+    <div class="col-sm-6 col-md-4">
+            <div class="widget">
+                <h6 class="title">LATEST UPDATES</h6>
+                <hr>
+        <ul class="link-list list-unstyled latest-updates">
+            <li>
+                <a href="#">Check the latest Iphone XS</a>
+                    <span class="date">September 
+                            <span class="number">26,2018</span>
+                    </span>
+            </li>
+            <li>
+                <a href="#">Check this beautiful amazing gucci bag <br> on our blog</a>
+                    <span class="date">August
+                        <span class="number">18,2018</span>
+                    </span>
+            </li>
+        </ul>
+            </div> 
+        <!-- END OF WIDGET -->
+    </div>
+                   
+    <div class="col-sm-6 col-md-4">
+        <div class="widget">
+            <h6 class="title">INSTAGRAM</h6>
+            <hr>
+        </div>
+    <!-- END OF WIDGET -->
+    </div>
+<!-- END OF COL -->
+            </div>
+        </div>    
+<!-- END OF CONTAINER -->
     </footer>
     <script src="js/jquery.min.js" ></script>
     <script src="js/bootstrap.min.js"></script>
-   <script src="js/hello.js" ></script>
+    <script src="js/ados.js" ></script>
 </body>
 </html>
 

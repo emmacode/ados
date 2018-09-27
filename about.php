@@ -16,7 +16,7 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
 <div class="container">
     <a href="home.php" class="navbar-brand">
-        <img src="images/Ados-e 4.png" alt="ADOS">
+        <img src="images/Ados-e-4.png" alt="ADOS">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#adosResponsive">
         <span class="navbar-toggler-icon" ></span>
@@ -91,22 +91,45 @@
     </div>
     <!-- end of container -->
 </section>
-    <footer>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <img src="images/Ados-e 3.png" alt="ADOS" width="250">
+<footer>
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <img src="images/Ados-e 3.png" alt="ADOS"  class="logo">
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <h5><small> TWITTER</small></h5>
-                        <hr>
-                    </div>
-                    <div class="col-sm-12 col-md-12 col-lg-4">
-                        <h5><small> INSTAGRAM</small></h5>
-                        <hr>
-                    </div>
-                </div>
-            </div>    
+    <div class="col-sm-6 col-md-4">
+            <div class="widget">
+                <h6 class="title">LATEST UPDATES</h6>
+                <hr>
+        <ul class="link-list list-unstyled latest-updates">
+            <li>
+                <a href="#">Check the latest Iphone XS</a>
+                    <span class="date">September 
+                            <span class="number">26,2018</span>
+                    </span>
+            </li>
+            <li>
+                <a href="#">Check this beautiful amazing gucci bag <br> on our blog</a>
+                    <span class="date">August
+                        <span class="number">18,2018</span>
+                    </span>
+            </li>
+        </ul>
+            </div> 
+        <!-- END OF WIDGET -->
+    </div>
+                   
+    <div class="col-sm-6 col-md-4">
+        <div class="widget">
+            <h6 class="title">INSTAGRAM</h6>
+            <hr>
+        </div>
+    <!-- END OF WIDGET -->
+    </div>
+<!-- END OF COL -->
+            </div>
+        </div>    
+<!-- END OF CONTAINER -->
     </footer>
     <script src="js/jquery.min.js" ></script>
     <script src="js/jquery-ui.min.js"></script>
