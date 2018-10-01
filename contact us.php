@@ -46,7 +46,6 @@
     </div>
 </section>
 </div>
-
    <section class="image-square left">
        <div class="col-md-4 col-lg-6 image">
            <div class="background-image-holder">
@@ -67,6 +66,13 @@
            </p>
        </div>
    </section>
+   <section>
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center">Do you have a complain or question?</h2>
+        </div>
+    </div>
+</section>
    <section>
         <div class="container">
             <div class="row fadeIn">
@@ -91,7 +97,7 @@
                         <div id="message_error" class="val_error alert-danger"></div>
                         </div>
                         <div>
-                        <button name="submit" type="submit">Send Message</button>
+                        <button name="submit" type="submit" class="but">Send Message</button>
                         </div>
                     </form>
                 </div>

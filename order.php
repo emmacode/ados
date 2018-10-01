@@ -126,7 +126,7 @@
             <option value="">Other</option>
         </select>
 </div>
-<button type="submit" class="submit mb-3" name="submit">Submit Order</button>
+<button type="submit" class="submit mb-3 but" name="submit">Submit Order</button>
 <ul class="status list-unstyled alert-danger"></ul>
 </div>
 <div class="col-sm-3"></div>

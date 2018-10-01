@@ -210,7 +210,7 @@ textarea:focus {
 button[type="submit"] {
   height: 50px;
   line-height: 48px;
-  border: 2px solid #1c2331;
+  border: 1px solid #1c2331;
   background: #1c2331;
   color: #fff;
   width: 100%;
@@ -223,6 +223,10 @@ button[type="submit"] {
 
 .bg-primary button[type="submit"] {
   background: #fff;
+  color: #1c2331;
+}
+but:hover{
+  background-color: #fff;
   color: #1c2331;
 }
 
