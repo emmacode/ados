@@ -1,11 +1,3 @@
-<?php 
- if(filter_has_var(INPUT_POST,'submit')){
-    $name = htmlspecialchars($_POST['name']);
-    $phone = htmlspecialchars($_POST['phone']);
-    $email = htmlspecialchars($_POST['email']);
-    $message = htmlspecialchars($_POST['message']);
- }
-?>
 <?php include ('inc/header.php'); ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top scrolling-navbar" >
 <div class="container">
@@ -78,23 +70,64 @@
             <div class="row fadeIn">
                 <div class="col-md-3"></div>
                 <div class=" col-md-6">
-                    <form class="form-group" onsubmit="return Validate()" name="vform" action="">
+                <?php
+                if (!empty($_SESSION['error'])) {
+                    foreach($_SESSION['error'] as $error) {
+                        ?>
+                        <div class="alert-danger" style="padding: 12px;"><?= $error ?></div>
+                        <?php
+                    }
+                    unset($_SESSION['error']);
+                    
+                }
+                if (!empty($_SESSION['success'])) {
+                    ?>
+                    <div class="alert-success" style="padding: 12px;"><?= $_SESSION['success']; ?></div>
+                    <?php
+                    unset($_SESSION['success']);
+                }
+                ?>
+                    <form class="form-group" onsubmit="return Validate()" name="vform" action="/handlers/contact.php" method="post">
                         <h6 class="uppercase text-center">Send A Message</h6>
                         <div>
                         <input type="text" class="textInput" name="username" placeholder="Your Name" value="<?php echo isset($_POST['name']) ? $name : '' ?>">
-                        <div id="name_error" class="val_error alert-danger"></div>
+                        <div id="name_error" class="val_error alert-danger">
+                        <?php
+                        if (isset($_SESSION['error']['username'])) {
+                            echo $_SESSION['error']['username'];
+                        }
+                        ?>
+                        </div>
                         </div>
                         <div>
                         <input type="text" class="textInput" name="phone" placeholder="Phone" value="<?php echo isset($_POST['name']) ? $phone : '' ?>">
-                        <div id="phone_error" class="val_error alert-danger"></div>
+                        <div id="phone_error" class="val_error alert-danger">
+                        <?php
+                        if (isset($_SESSION['error']['phone'])) {
+                            echo $_SESSION['error']['phone'];
+                        }
+                        ?>
+                        </div>
                         </div>
                        <div>
                        <input type="text" class="textInput" name="email" placeholder="Email Address" value="<?php echo isset($_POST['name']) ? $email : '' ?>">
-                       <div id="email_error" class="val_error alert-danger"></div>
+                       <div id="email_error" class="val_error alert-danger">
+                       <?php
+                        if (isset($_SESSION['error']['email'])) {
+                            echo $_SESSION['error']['email'];
+                        }
+                        ?>
+                       </div>
                        </div>
                         <div>
                         <textarea name="message" rows="4" placeholder="Message" class="textInput"><?php echo isset($_POST['name']) ? $message : '' ?></textarea>
-                        <div id="message_error" class="val_error alert-danger"></div>
+                        <div id="message_error" class="val_error alert-danger">
+                        <?php
+                        if (isset($_SESSION['error']['message'])) {
+                            echo $_SESSION['error']['message'];
+                        }
+                        ?>
+                        </div>
                         </div>
                         <div>
                         <button name="submit" type="submit" class="but">Send Message</button>
