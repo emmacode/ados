@@ -730,7 +730,7 @@ h4.uppercase {
     font-size: 15px;
   }
   .carousel-inner img {
-    width: 100%;
+    width: auto;
     height: 350px;
   }
 }
