@@ -69,14 +69,17 @@
         </div>
 <!-- END OF CONTAINER -->
     </footer>
+    <!-- JQUERY -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="js/popper.min.js"></script>
+<!-- VALIDATE JS - JQUERY PLUGIN -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
-<!-- Bootstrap core javascript-->
+<!-- Bootstrap Javascript-->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
+    <!-- MDB JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- CUSTOM JAVSCRIPT -->
     <script type="text/javascript" src="js/ados.js" ></script>
 </body>
 </html>

@@ -15,7 +15,7 @@ session_start();
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <!-- Material Design Bootstrap -->
+    <!-- MDB -->
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Animate core css -->
     <link rel="stylesheet" href="css/animate.css">

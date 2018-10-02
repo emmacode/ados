@@ -54,7 +54,7 @@
 </div>
 <!--container-->
     <div class="container">
-    <section class="mt-5 ">
+    <section>
     <h2 class="h2 text-center mb-5">Order Process</h2>
         <!-- first row -->
        <div class="row">
