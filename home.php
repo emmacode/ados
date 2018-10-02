@@ -19,7 +19,7 @@
                 <a href="order.php" class="nav-link">ORDER</a>
             </li>
             <li class="nav-item">
-                <a href="contact us.php" class="nav-link">CONTACT US</a>
+                <a href="contact_us.php" class="nav-link">CONTACT US</a>
             </li>
         </ul>
     </div>
@@ -37,24 +37,24 @@
 <div class="carousel-item active">
 <img src="images/laptop.jpg" class="img-fluid" alt="image">
 <div class="carousel-caption">
-<h4 class="text-white mb40 mb-xs-16 large">Order online for 310/$.</h4>
+<h4 class="text-white mb40 mb-xs-16 large animated bounceInUp">Order online for 310/$.</h4>
 </div>
 </div>
 <div class="carousel-item">
 <img src="images/iphone.jpg" class="img-fluid" alt="image">
 <div class="carousel-caption">
-<h3 class="text-white">Quality and Suitable products from Reliable Suppliers</h3>
-<h5 class="uppercase mb16" style="color:#ccc;">So that only best Quality products are on offer</h5>
+<h3 class="text-white animated bounceInUp">Quality and Suitable products from Reliable Suppliers</h3>
+<h5 class="uppercase mb16 animated bounceIn" style="color:#ccc;">So that only best Quality products are on offer</h5>
 </div>
 </div>
 <div class="carousel-item">
-<img src="images/3.jpg" class="img-fluid" alt="image">
+<img src="images/electronics.jpg" class="img-fluid" alt="image">
 </div>
 </div>
 </div>
 <!--container-->
     <div class="container">
-    <section class="mt-5 wow fadeIn">
+    <section>
     <h2 class="h2 text-center mb-5">Order Process</h2>
         <!-- first row -->
        <div class="row">
@@ -62,14 +62,14 @@
                <img src="images/process1.png" alt="image" class="img-fluid z-depth-1-half">
            </div>
            <div class="col-md-6">
-               <h3 class="text-center mt-4">Step 1</h3>
-               <p class="text-center">Browse www.amazon.com</p>
+               <h3 class="text-center mt-4 wow animated bounceIn">Step 1</h3>
+               <p class="text-center animated  bounceIn">Browse www.amazon.com</p>
            </div>
        </div>
        <hr class="my-5">
        <!-- second row -->
-       <div class="row mt-5 wow fadeIn">
-           <div class="col-md-6">
+       <div class="row mt-5">
+           <div class="col-md-6 animated bounceInUp">
                <h3 class="text-center">Step 2</h3>
                <p class="text-center">Search for your desired item</p>
                <p></p>
@@ -84,16 +84,16 @@
            <div class="col-md-6">
                <img src="images/process3.png" alt="image" class="img-fluid z-depth-1-half">
            </div>
-           <div class="col-md-6">
+           <div class="col-md-6 animated fadeIn">
                <h3 class="text-center">Step 3</h3>
-               <p class="text-center">Copy the link address in the <strong>RED CIRCLED BOX</strong> of the product from the URL </p>
+               <p class="text-center">Copy the address link in the <strong>RED CIRCLED BOX</strong> of the product from the URL </p>
            </div>
        </div>
        <hr class="my-5">
        <!-- fourth row -->
        <div class="row mt-5">
            <div class="col-md-6">
-               <h3 class="text-center">Step 4</h3>
+               <h3 class="text-center animated fadeIn">Step 4</h3>
                <p class="text-center">Paste <strong>COPIED LINK</strong> in the <strong> RED CYCLED BOX</strong> in ORDER page</p>
            </div>
            <div class="col-md-6">
@@ -101,5 +101,6 @@
            </div>
        </div>
     </section>
+    
     </div>
    <?php include ('inc/footer.php'); ?>

@@ -28,7 +28,7 @@
                 <a href="order.php" class="nav-link">ORDER</a>
             </li>
             <li class="nav-item">
-                <a href="contact us.php" class="nav-link">CONTACT US</a>
+                <a href="contact_us.php" class="nav-link">CONTACT US</a>
             </li>
         </ul>
     </div>
