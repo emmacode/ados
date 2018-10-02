@@ -57,8 +57,8 @@
         <span>Vision</span>
     </div>
     <div class="tab-content animated fadeIn">
-        <img src="images/vision.jpeg" alt="CAMERA" width="250">
-        <p>At Ados, our firm mental acceptance in high quality and exceptionally responsive customer service makes us one of the best around. This mental acceptance is based on our belief that online shopping should be just as uncomplicated as offline shopping and more comfortable, easier and more cost-effective than offline shopping, This is Our move, and this is the reason why we will continue to strive to deliver the best products at the most AFFORDABLE prices, ship them and get them delivered to You regardless of Your geographical area and location.</p>
+        <img src="images/vision.jpeg" class="img-fluid z-depth-1-half" alt="CAMERA" width="350">
+        <p class="mt-5">At Ados, our firm mental acceptance in high quality and exceptionally responsive customer service makes us one of the best around. This mental acceptance is based on our belief that online shopping should be just as uncomplicated as offline shopping and more comfortable, easier and more cost-effective than offline shopping, This is Our move, and this is the reason why we will continue to strive to deliver the best products at the most AFFORDABLE prices, ship them and get them delivered to You regardless of Your geographical area and location.</p>
     </div>
     </li>
     <li>
@@ -66,8 +66,8 @@
             <span>Mission</span>
         </div>
     <div class="tab-content animated fadeIn">
-        <img src="images/mission.jpg" alt="TARGET" width="250">
-                    <p>With our innovative, creative and motivated team, We live to be always be industrious so that we put smile to your face.</p>
+        <img src="images/mission.jpg" alt="TARGET" class="img-fluid z-depth-1-half" width="350">
+                    <p class="mt-5">With our innovative, creative and motivated team, We live to be always be industrious so that we put smile to your face.</p>
     </div>
     </li>
     </ul>

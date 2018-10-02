@@ -46,30 +46,32 @@
     </div>
 </section>
 </div>
-   <section class="image-square left">
-       <div class="col-md-4 col-lg-6 image">
-           <div class="background-image-holder">
-               <img src="images/office.jpeg" alt="office" class=" img-fluid" >
-           </div>
-       </div>
-       <div class="col-md-8 col-lg-6  content">
-           <h4 class="uppercase">Get In Touch</h4>
+<section>
+    <div class="row">
+    <div class="col-md-6">
+    <img src="images/office.jpeg" class="img-fluid z-depth-1-half" alt="An office image">
+    </div>
+    <div class="col-md-6 mt-5">
+    <h4 class="uppercase">Get In Touch</h4>
            <p>
-           At Ados our customer voice speaks. At Ados our customer voice speaks. At Ados our customer voice speaks. At Ados our customer voice speaks. At Ados our customer voice speaks. At Ados our customer voice speaks 
+           At Ados we care about our customers.At Ados we care about our customers.At Ados we care about our customers.At Ados we care about our customers.At Ados we care about our customers.
            </p>
            <hr>
            <p>
-               <strong>Email:</strong> hello@ados.com
+               <strong><i class="fa fa-envelope "></i></strong> :  hello@ados.com
                <br>
-               <strong>Phone:</strong> +2349060242202
+               <strong><i class="fa fa-phone" aria-hidden="true"></i></strong>  : +2349060242202
                <br>
            </p>
-       </div>
-   </section>
-   <section>
+    </div>
+    </div>
+</section>
+</div>
     <div class="container">
         <div class="row">
-            <h2 class="text-center">Do you have a complain or question?</h2>
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><h2 class="text-center">Do you have a complain or question?</h2></div>
+            <div class="col-md-3"></div>
         </div>
     </div>
 </section>

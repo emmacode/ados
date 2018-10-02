@@ -48,7 +48,7 @@
 </div>
 </div>
 <div class="carousel-item">
-<img src="images/3.jpg" class="img-fluid" alt="image">
+<img src="images/electronics.jpg" class="img-fluid" alt="image">
 </div>
 </div>
 </div>
@@ -86,7 +86,7 @@
            </div>
            <div class="col-md-6 animated fadeIn">
                <h3 class="text-center">Step 3</h3>
-               <p class="text-center">Copy the link address in the <strong>RED CIRCLED BOX</strong> of the product from the URL </p>
+               <p class="text-center">Copy the address link in the <strong>RED CIRCLED BOX</strong> of the product from the URL </p>
            </div>
        </div>
        <hr class="my-5">
