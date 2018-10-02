@@ -19,7 +19,7 @@
                <a href="order.php" class="nav-link">ORDER</a>
            </li>
             <li class="nav-item">
-                <a href="contact us.php" class="nav-link">CONTACT US</a>
+                <a href="contact_us.php" class="nav-link">CONTACT US</a>
             </li>
         </ul>
     </div>
@@ -27,7 +27,7 @@
 </nav>
 <!-- /.navbar -->
 
-<section class="first-about">
+<section class="first-about a">
     <div class="container">
         <h2 class="uppercase mb8">About Us</h2>
         <p>

@@ -225,7 +225,8 @@ button[type="submit"] {
   background: #fff;
   color: #1c2331;
 }
-but:hover{
+
+but:hover {
   background-color: #fff;
   color: #1c2331;
 }
@@ -429,17 +430,19 @@ footer {
 .widget hr {
   margin-bottom: 12px;
 }
+
+.hr {
+  border: none;
+  border-top: 1px solid #fff;
+  margin: 0 0 24px 0;
+  margin-right: 20%;
+}
+
+@media all and (max-width:766px) {
   .hr {
-    border: none;
-    border-top: 1px solid #fff;
-    margin: 0 0 24px 0;
-    margin-right: 20%;
+    margin-left: 20%;
   }
-  @media all and (max-width:766px){
-    .hr{
-      margin-left: 20%;
-    }
-  }
+}
 
 .link-list {
   line-height: 32px;
@@ -506,7 +509,7 @@ section, footer {
 
 .first-about {
   /* image used */
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('about-us-vector.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('5.0-About\ Us.jpg');
   padding-top: 140px;
   /* height used */
   min-height: 300px;
@@ -539,11 +542,12 @@ section, footer {
 }
 
 .first-contact {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('contact.jpg');
   padding-top: 140px;
   /* height used */
   min-height: 300px;
   background-size: cover !important;
-  height: 50vh;
+  height: 70vh;
   /* create parallex scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -554,12 +558,16 @@ section, footer {
 }
 
 @media(max-width:766px) {
-  .first {
-    height: 90vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('hand.jpg');
-  }
   .first-about {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('5.0-About\ Us.jpg');
+
     height: 70vh;
+  }
+  .first-about h2 {
+    padding-top: 30%;
+  }
+  .first-contact h2{
+    visibility: hidden;
   }
 }
 
@@ -799,8 +807,6 @@ h4.uppercase {
 }
 
 /* slider */
-
-
 
 .carousel-indicators>li {
   border-radius: 12px;
