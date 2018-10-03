@@ -58,11 +58,11 @@
     </div>
 
     <div class="col-md-4 col-lg-4">
-        <div class="widget">
+       <div class="widget">
             <h6 class="title">INSTAGRAM</h6>
             <hr class="hr">
         </div>
-    <!-- END OF WIDGET -->
+        <!-- END OF WIDGET -->
     </div>
 <!-- END OF COL -->
             </div>
