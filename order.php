@@ -1,12 +1,3 @@
-<?php 
- if(filter_has_var(INPUT_POST,'submit')){
-    $name = htmlspecialchars($_POST['name']);
-    $phone = htmlspecialchars($_POST['phone']);
-    $email = htmlspecialchars($_POST['email']);
-    $link = htmlspecialchars($_POST['link']);
-    $message = htmlspecialchars($_POST['message']);
- }
-?>
 <?php include ('inc/header.php'); ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top scrolling-navbar" >
 <div class="container">
@@ -42,8 +33,11 @@
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
+                    <?php
+                    include_once "inc/errors.php";
+                    ?>
         <div class=" feature boxed bg-secondary">
-<form method="POST" action="register.php" class="text-center">
+<form method="POST" action="handlers/orders.php" class="text-center">
 <h4 class="uppercase mt48 mt-xs-0 ">ORDER THROUGH US TODAY</h4>
 <p class="lead mb64 mb-xs-24">Share details about what you want to order</p>
 <div class="overflow-hidden">
@@ -54,28 +48,28 @@
     <p class="mb16">Electronics</p>
     <div class="checkbox-option text-left">
         <div class="inner"></div>
-        <input type="checkbox" value="electronics"  name="electronics">
+        <input type="checkbox" value="electronics"  name="category[]">
     </div>
 </div>
 <div class="col-md-3">
     <p class="mb16">Bags & Shoes</p>
     <div class="checkbox-option text-left">
         <div class="inner"></div>
-        <input type="checkbox" value="bags" name="bags">
+        <input type="checkbox" value="bags" name="category[]">
     </div>
 </div>
 <div class="col-md-3">
     <p class="mb16">Books</p>
     <div class="checkbox-option text-left">
         <div class="inner"></div>
-        <input type="checkbox" value="books" name="books">
+        <input type="checkbox" value="books" name="category[]">
     </div>
 </div>
 <div class="col-md-3">
     <p class="mb16">Jersey</p>
     <div class="checkbox-option text-left">
         <div class="inner"></div>
-        <input type="checkbox" value="jersey" name="Jersey">
+        <input type="checkbox" value="jersey" name="category[]">
     </div>
 </div>
     </div>
