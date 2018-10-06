@@ -73,18 +73,7 @@ $(document).ready(function () {
             event.preventDefault()
             statusElm.append('<li>Phone: Phone is not valid.</li>');
         }
-        if (email == "") {
-            event.preventDefault()
-            statusElm.append('<li>Email: Please input your email.</li>');
-        }
-        else {
-            var regEX = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
-            var validEmail = regEX.test(email);
-            if (!validEmail) {
-                event.preventDefault()
-                statusElm.append('<li>Enter a valid email</li>');
-            }
-        }
+
         if (link == "") {
             event.preventDefault()
             statusElm.append('<li>Link: Please get the link to the item you want to order.</li>');
