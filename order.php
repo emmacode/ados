@@ -82,11 +82,13 @@
 <div class="row">
 <div class="col-md-6">
     <p>INDIVIDUAL</p>
+    <div>
     <div class="radio-option">
-        <div class="inner"></div>
-        <input type="radio" value="individual" name="rdn" >
+    <div class="inner"></div>
+    <input type="radio" id="individual" value="individual" name="rdn">
     </div>
-</div>
+    
+    </div></div>
 <div class="col-md-6">
     <p>COMPANY</p>
     <div class="radio-option">
@@ -97,16 +99,15 @@
 </div>
 <hr>
 </div>
+
+
 <div class="overflow-hidden">
 <h6 class="uppercase">3. YOUR DETAILS</h6>
-<div>
-<input type="text"  name="name" class="col-md-6 name" placeholder="Your Name*"  value="<?php echo isset($_POST['name']) ? $name : '' ?>">
-<input type="text" name="phone" class="col-md-6 phone" placeholder="Your Phone*" value="<?php echo isset($_POST['name']) ? $phone : '' ?>" >
-<div id="name_error" class="val_error alert-danger"></div>
-</div>
-<input type="text" name="email" class="email" placeholder="Your Current Email Address*" value="<?php echo isset($_POST['name']) ? $email : '' ?>" >
-<input type="text" class="link" name="link" placeholder="Put Link of Item you want to order here*" value="<?php echo isset($_POST['name']) ? $link : '' ?>" >
-<textarea name="message" class="message"  rows="2" placeholder="Type Your Message" ><?php echo isset($_POST['name']) ? $message : '' ?></textarea>
+<input type="text"  name="name " class="name" placeholder="Your Name*" value="<?php echo isset($_POST['name']) ? $name : '' ?>">
+<input type="text"  name="phone " class="phone" placeholder="Your Phone*" value="<?php echo isset($_POST['name']) ? $phone : '' ?>" >
+
+<input type="text"  class="link" name="link" placeholder="Put Link of Item you want to order here*" value="<?php echo isset($_POST['name']) ? $link : '' ?>" >
+<textarea name="message" id="individual"  data-require-pair="#individual" class="message"  rows="2" placeholder="Type Your Message" ><?php echo isset($_POST['name']) ? $message : '' ?></textarea>
 </div>
 <div class="overflow-hidden">
     <h6 class="uppercase">4. Lastly, how did you hear of us?</h6>

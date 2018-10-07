@@ -53,7 +53,7 @@
            </p>
            <hr>
            <p>
-               <strong><i class="fa fa-envelope "></i></strong> :  hello@ados.com
+               <strong><i class="fa fa-envelope "></i></strong> :  admin@ados.com
                <br>
                <strong><i class="fa fa-phone" aria-hidden="true"></i></strong>  : +2349060242202
                <br>

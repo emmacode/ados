@@ -57,7 +57,6 @@ $(document).ready(function () {
     $('.submit').click(function (event) {
         var name = $('.name').val();
         var phone = $('.phone').val();
-        var email = $('.email').val();
         var link = $('.link').val();
         var message = $('.message').val();
         var statusElm = $('.status')
@@ -73,7 +72,6 @@ $(document).ready(function () {
             event.preventDefault()
             statusElm.append('<li>Phone: Phone is not valid.</li>');
         }
-
         if (link == "") {
             event.preventDefault()
             statusElm.append('<li>Link: Please get the link to the item you want to order.</li>');
