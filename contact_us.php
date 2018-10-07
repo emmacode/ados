@@ -4,8 +4,10 @@
     <a href="home.php" class="navbar-brand">
         <img src="images/Ados-e 3.png" alt="ADOS">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#adosResponsive">
-        <span class="navbar-toggler-icon" ></span>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#adosResponsive">
+    <span class="icon-bar top-bar" ></span>
+        <span class="icon-bar middle-bar" ></span>
+        <span class="icon-bar bottom-bar" ></span>
     </button>
     <div class="collapse navbar-collapse" id="adosResponsive">
         <ul class="navbar-nav  ml-auto">
@@ -51,7 +53,7 @@
            </p>
            <hr>
            <p>
-               <strong><i class="fa fa-envelope "></i></strong> :  hello@ados.com
+               <strong><i class="fa fa-envelope "></i></strong> :  admin@ados.com
                <br>
                <strong><i class="fa fa-phone" aria-hidden="true"></i></strong>  : +2349060242202
                <br>

@@ -57,7 +57,6 @@ $(document).ready(function () {
     $('.submit').click(function (event) {
         var name = $('.name').val();
         var phone = $('.phone').val();
-        var email = $('.email').val();
         var link = $('.link').val();
         var message = $('.message').val();
         var statusElm = $('.status')
@@ -72,18 +71,6 @@ $(document).ready(function () {
         } else if (phone.length < 11) {
             event.preventDefault()
             statusElm.append('<li>Phone: Phone is not valid.</li>');
-        }
-        if (email == "") {
-            event.preventDefault()
-            statusElm.append('<li>Email: Please input your email.</li>');
-        }
-        else {
-            var regEX = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
-            var validEmail = regEX.test(email);
-            if (!validEmail) {
-                event.preventDefault()
-                statusElm.append('<li>Enter a valid email</li>');
-            }
         }
         if (link == "") {
             event.preventDefault()

@@ -4,8 +4,10 @@
     <a href="home.php" class="navbar-brand">
         <img src="images/Ados-e 3.png" alt="ADOS">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#adosResponsive" aria-controls="adosResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" ></span>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#adosResponsive" aria-controls="adosResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar top-bar" ></span>
+        <span class="icon-bar middle-bar" ></span>
+        <span class="icon-bar bottom-bar" ></span>
     </button>
     <div class="collapse navbar-collapse" id="adosResponsive">
         <ul class="navbar-nav smooth-scroll ml-auto">
@@ -85,7 +87,7 @@
                <img src="images/process3.png" alt="image" class="img-fluid z-depth-1-half">
            </div>
            <div class="col-md-6 animated fadeIn">
-               <h3 class="text-center">Step 3</h3>
+               <h3 class="text-center mt-4">Step 3</h3>
                <p class="text-center">Copy the address link in the <strong>RED CIRCLED BOX</strong> of the product from the URL </p>
            </div>
        </div>
