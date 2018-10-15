@@ -20,10 +20,10 @@ function sendEmail(array $data) {
         $mail->Username = SMTP_USERNAME;
         $mail->Password = SMTP_PASSWORD;
         $mail->SMTPSecure = 'tls';
-        $mail->Port = 25;
+        $mail->Port = 465;
     
         //Recipients
-        $mail->addAddress('admin@ados.com', 'Ados Admin');
+        $mail->addAddress('hello@adosmint.com', 'Adosmint!');
         $mail->setFrom(MAILER_FROM, MAILER_FULLNAME);
         $mail->isHTML(true);
         $mail->Subject = 'New Mail from Contact Page';

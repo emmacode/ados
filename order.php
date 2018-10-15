@@ -93,7 +93,7 @@
     <p>COMPANY</p>
     <div class="radio-option">
         <div class="inner"></div>
-        <input type="radio" value="company" name="rdn" >
+        <input type="radio" value="company" name="company" >
     </div>
 </div>
 </div>
@@ -103,8 +103,8 @@
 
 <div class="overflow-hidden">
 <h6 class="uppercase">3. YOUR DETAILS</h6>
-<input type="text"  name="name " class="name" placeholder="Your Name*" value="<?php echo isset($_POST['name']) ? $name : '' ?>">
-<input type="text"  name="phone " class="phone" placeholder="Your Phone*" value="<?php echo isset($_POST['name']) ? $phone : '' ?>" >
+<input type="text"  name="name" class="name" placeholder="Your Name*" value="<?php echo isset($_POST['name']) ? $name : '' ?>">
+<input type="text"  name="phone" class="phone" placeholder="Your Phone*" value="<?php echo isset($_POST['name']) ? $phone : '' ?>" >
 
 <input type="text"  class="link" name="link" placeholder="Put Link of Item you want to order here*" value="<?php echo isset($_POST['name']) ? $link : '' ?>" >
 <textarea name="message" id="individual"  data-require-pair="#individual" class="message"  rows="2" placeholder="Type Your Message" ><?php echo isset($_POST['name']) ? $message : '' ?></textarea>

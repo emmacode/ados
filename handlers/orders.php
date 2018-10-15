@@ -12,12 +12,11 @@ require '../vendor/SMTP.php';
 
 
 if (!empty($_POST)) {
-    $categories = $_POST['categories'];
+    $categories = $_POST['category'];
     $accountType = $_POST['rdn'];
     $fullName = $_POST['name'];
     $productLink = $_POST['link'];
     $phone = $_POST['phone'];
-    $email = $_POST['email'];
     $message = $_POST['message'];
     $referrer = $_POST['referrer'];
 
@@ -36,18 +35,17 @@ function sendMail(array $data) {
         $mail->Username = SMTP_USERNAME;
         $mail->Password = SMTP_PASSWORD;
         $mail->SMTPSecure = 'tls';
-        $mail->Port = 25;
+        $mail->Port = 465;
 
         //Recipients
-        $mail->addAddress('admin@ados.com', 'Ados Admin');
+        $mail->addAddress('hello@adosmint.com', 'Adosmint!');
         $mail->setFrom(MAILER_FROM, MAILER_FULLNAME);
         $mail->isHTML(true);
         $mail->Subject = 'You have a new Order';
         $body = 'New order from: '.$data['name']." with phone number:".$data['phone'];
         $body .= "<hr/>";
-        $body .= "Email: ".$data['email']."<br/>";
         $body .= "Account Type: ".$data['rdn']."<br/>";
-        $body .= "Link: ".$data['link']."br/>";
+        $body .= "Link: <a href='".$data['link']."'>".$data['link']."</a><br/>";
         $body .= "<ul>";
         if (!empty($data['category'])) {
             foreach ($data['category'] as $category) {
@@ -64,6 +62,8 @@ function sendMail(array $data) {
         $_SESSION['success'] = "Your order has been received and we will get back to you shortly";
         header("location: /order.php");
     } catch (Exception $e) {
+        var_dump($e);
+        die();
         $_SESSION['error']['failure'] = "Failed to send message. Please try again later.";
         header("location: /order.php");
     }
