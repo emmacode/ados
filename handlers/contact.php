@@ -1,6 +1,7 @@
 <?php
+ob_clean();
+ob_start();
 session_start();
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -12,15 +13,15 @@ require '../vendor/SMTP.php';
 
 function sendEmail(array $data) {
     $mail = new PHPMailer(true);
-    try {
-        $mail->SMTPDebug = 2;
+    try {        
+        $mail->SMTPDebug = 1;
         $mail->isSMTP();
         $mail->Host = SMTP_HOST;
         $mail->SMTPAuth = true;
         $mail->Username = SMTP_USERNAME;
         $mail->Password = SMTP_PASSWORD;
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 465;
+        $mail->Port = 26;
+
     
         //Recipients
         $mail->addAddress('hello@adosmint.com', 'Adosmint!');
