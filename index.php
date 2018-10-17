@@ -85,8 +85,8 @@
                    <p>We do the shopping,<br> You rest.</p>
                 </div>
                 <div class="col-md-3 col-sm-3 text-center mb10">
-                    <i class="fa fa-globe zoom bg-blue"></i><i class="fa fa-truck zoom"></i>
-                    <p>We deliver to your doorstep.</p>
+                    <i class="fa fa-globe zoom bg-blue"></i>
+                    <p>We deliver to you regardless of your geographical area.</p>
                 </div>
                 <div class="col-md-3 col-sm-3 text-center mb10">
                     <i class="fa fa-support zoom"></i>
@@ -125,7 +125,7 @@
       <div class="carousel-item">
           <!-- Person name -->
           <h4 class="font-weight-bold mt-4">Esther</h4>
-          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>One word....WOW!.I ordered for the gucci bag.It is nice and a very good leather.</p>
+          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>One word....WOW!.A great priviledge ordering for my Macbook air for a lesser price.I had a marvellous treat from Moyin.</p>
       </div>
       <!-- End of third slide -->
       <!-- Fourth slide -->

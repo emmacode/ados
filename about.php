@@ -61,7 +61,7 @@
         <img src="images/vision.jpeg" class="img-fluid z-depth-1-half" alt="CAMERA" width="350">
         </div>
         <div class="col-md-8 mt-5">
-        <p>At Adosmint, our firm mental acceptance in high quality and exceptionally responsive customer service makes us one of the best around. This mental acceptance is based on our belief that online shopping should be just as uncomplicated as offline shopping and more comfortable, easier and more cost-effective than offline shopping, This is Our move, and this is the reason why we will continue to strive to deliver the best products at the most AFFORDABLE prices, ship them and get them delivered to You regardless of Your geographical area and location.</p>
+        <p>At Adosmint, our firm mental acceptance in high quality and exceptionally responsive customer service makes us one of the best around. This mental acceptance is based on our belief that online shopping should be just as uncomplicated as offline shopping and more comfortable, easier and more cost-effective than offline shopping, This is Our move, and this is the reason why we will continue to strive to deliver the best products at the most AFFORDABLE prices, ship them and get them delivered to You.Regardless of Your geographical area and location.</p>
         </div>
        </div>
         </section>
