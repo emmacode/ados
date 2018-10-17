@@ -12,7 +12,7 @@
     <div class="collapse navbar-collapse" id="adosResponsive">
         <ul class="navbar-nav smooth-scroll ml-auto">
             <li class="nav-item">
-                <a href="home.php" class="nav-link">HOME</a>
+                <a href="index.php" class="nav-link">HOME</a>
             </li>
             <li class="nav-item" >
                 <a href="about.php" class="nav-link">ABOUT</a>
