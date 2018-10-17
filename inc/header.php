@@ -11,8 +11,8 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Afolabi Moyinoluwa">
     <title>Adosmint - No 1 shopping agent in Nigeria.</title>
+    <!-- Logo icon -->
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="icon" type="image/gif" href="images/animated_favicon1.gif">
     <!-- Font Awesome -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core css -->

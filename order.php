@@ -96,7 +96,7 @@
     <p>COMPANY</p>
     <div class="radio-option">
         <div class="inner"></div>
-        <input type="radio" value="company" name="company" >
+        <input type="radio" id="company" value="company" name="rdn" >
     </div>
 </div>
 </div>
@@ -120,7 +120,7 @@
     <div class="select-option">
         <select name="referrer" >
             <option selected value="Default">Select An Option</option>
-            <option value="Google">Google</option>
+            <option value="Google">Search Engines</option>
             <option value="Our Website">Our Website</option>
             <option value="Friend">A Friend</option>
             <option value="Other">Other</option>
