@@ -54,7 +54,7 @@
 <div class="carousel-caption">
 <div class="slider-text-middle-main">
     <div class="slider-text-middle animated fadeInUp">
-        <span class="owl-title-big white-text">order your desired item online for 310/$.</span>
+        <span class="owl-title-big">order your desired item online for 310/$.</span>
     </div>
 </div>
 </div>
