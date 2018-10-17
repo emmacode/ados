@@ -789,6 +789,7 @@ section, footer {
     top: 55%;
     transform: translateY(-50%);
   }
+}
   @media all and (max-width:766px) {
     .carousel-inner img {
       width: 100%;
@@ -819,7 +820,6 @@ section, footer {
     text-transform: uppercase;
     width: 100%
   }
-}
 
 /* Icon */
 
