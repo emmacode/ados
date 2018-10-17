@@ -1,35 +1,36 @@
-<?php include ('inc/header.php'); ?>
+<?php include ('inc/header.php') ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top scrolling-navbar" >
 <div class="container">
-    <a href="home.php" class="navbar-brand">
+    <a href="https://adosmint.com" class="navbar-brand">
         <img src="images/Ados-e 3.png" alt="ADOS">
     </a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#adosResponsive" aria-controls="adosResponsive" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="icon-bar top-bar" ></span>
+        <span class="icon-bar top-bar" ></span>
         <span class="icon-bar middle-bar" ></span>
         <span class="icon-bar bottom-bar" ></span>
     </button>
     <div class="collapse navbar-collapse" id="adosResponsive">
         <ul class="navbar-nav smooth-scroll ml-auto">
             <li class="nav-item">
-                <a href="index.php" class="nav-link">HOME</a>
+                <a href="https://adosmint.com" class="nav-link">HOME</a>
             </li>
             <li class="nav-item" >
-                <a href="about.php" class="nav-link">ABOUT</a>
+                <a href="https://adosmint.com/about.php" class="nav-link">ABOUT</a>
             </li>
             <li class="nav-item">
-                <a href="order.php" class="nav-link">ORDER</a>
+                <a href="https://adosmint.com/order.php" class="nav-link">ORDER</a>
             </li>
             <li class="nav-item">
-                <a href="store.php" class="nav-link">STORE</a>
+                <a href="https://adosmint.com/store.php" class="nav-link">STORE</a>
             </li>
             <li class="nav-item">
-                <a href="contact_us.php" class="nav-link">CONTACT</a>
+                <a href="https://adosmint.com/contact_us.php" class="nav-link">CONTACT</a>
             </li>
         </ul>
     </div>
 </div>
 </nav>
+<!-- /.navbar -->
 <section class="first-order img-fluid">
     
 </section>
