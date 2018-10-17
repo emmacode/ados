@@ -110,16 +110,15 @@
            <div class="col-md-4">
                 <!--First slide-->
       <div class="carousel-item active mt-4">
-         
-          <!-- Person name -->
-          <h4 class="font-weight-bold mt-4">ATOM</h4>
-          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>First time with Adosmint was great. Bought my iphone X and samsung S9 @310/$. #70000 lesser to the price here in Nigeria. </p>
+           <!-- Person name -->
+           <h4 class="font-weight-bold mt-4">Ani</h4>
+          <p class="font-weight-normal"><i class="fa fa-quote-left"></i> It was an awesome experience ordering from amazon.  I really appreciate your loyalty and honesty.</p>
       </div>
       <!-- Second slide -->
       <div class="carousel-item">
           <!-- Person name -->
-          <h4 class="font-weight-bold mt-4">Ani</h4>
-          <p class="font-weight-normal"><i class="fa fa-quote-left"></i> It was an awesome experience ordering from amazon.  I really appreciate your loyalty and honesty.</p>
+          <h4 class="font-weight-bold mt-4">ATOM</h4>
+          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>First time with Adosmint was great. Bought my iphone X and samsung S9 @310/$. #70000 lesser to the price here in Nigeria. </p>
       </div>
       <!-- End of second slide -->
       <!-- Third slide -->

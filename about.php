@@ -70,7 +70,7 @@
        <h3 class="text-center uppercase mb-5">Mission</h3>
        <div class="row">
                 <div class="col-md-6">
-                <p>With our innovative, creative and motivated team, We live to be always be industrious so that we put smile to your face.</p>
+                <p>With our innovative, creative and motivated team, We live to be always industrious so that we put smile to your face.</p>
                 </div>
                 <div class="col-md-6"><img src="images/mission.jpg" alt="TARGET" class="img-fluid z-depth-1-half" width="350"></div>
        </div>

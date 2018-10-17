@@ -1,22 +1,109 @@
-/* 
-1 - FOOTER
-2- FORMS
-3- IMAGE LAYERS
-4- NAVIGATION
-5- TABBED CONTENT
-6- TYPOGRAPHY
+/*
+TABLE OF CONTENT
+- Margins
+- Background-color
+- hr - underline
+- Typography
+- Forms
+- Section & Footer
+- Gen css
+- Navigation
+- Image layers
+- Slider
+- Owl
+- Icon
+- Diff
+- Store
+- Error fonts
 */
 
-.main-container {
-  clear: both;
-}
+/* Margins */
 
 .mb0 {
   margin-bottom: 0 !important;
 }
 
+.text-15, .text-15 li {
+  font-size: 1.2rem !important;
+}
+
+@media all and (max-width: 767px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+.mb8 {
+  margin-bottom: 8px;
+}
+
+.mb {
+  margin-bottom: 10px;
+}
+
+.mb16 {
+  margin-bottom: 16px !important;
+}
+
+.mt48 {
+  margin-top: 48px;
+}
+
+.mt-xs-0 {
+  margin-top: 0 !important;
+}
+
+.mb-xs-16 {
+  margin-bottom: 16px;
+}
+
+.mb64 {
+  margin-bottom: 64px;
+}
+
+.mb-xs-24 {
+  margin-bottom: 24px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+/* End of Margins */
+
+/* Background-color */
+
+.bg-gold {
+  color: #ef7f1a;
+}
+
+.bg-blue {
+  color: rgb(37, 186, 236);
+}
+
 .bg-secondary {
   background: #f8f8f8 !important;
+}
+
+/* End of Background-color */
+
+/* hr - underline */
+
+.hr {
+  border: none;
+  border-top: 1px solid #fff;
+  margin: 0 0 24px 0;
+  margin-right: 20%;
+}
+
+@media all and (max-width:766px) {
+  .hr {
+    margin-left: 20%;
+  }
 }
 
 .underline {
@@ -26,12 +113,90 @@
   margin-right: 40%;
 }
 
-.uppercase {
-  font-weight: 400;
-  text-transform: uppercase;
+@media all and (max-width:766px) {
+  hr {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
 
-/* FORMS */
+/* End of hr - underline */
+
+/* Typography */
+
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h3, h4 {
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding: 0;
+  font-weight: 300;
+  color: #292929;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1.large {
+  font-size: 90px;
+  line-height: 80px;
+  font-weight: 300;
+  color: #fff;
+}
+
+@media all and (max-width: 990px) {
+  h1.large {
+    font-size: 56px;
+    line-height: 64px;
+  }
+}
+
+@media all and (max-width:766px) {
+  h1.large {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+  }
+}
+
+@media all and (max-width:766px) {
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+h2.uppercase {
+  letter-spacing: 10px;
+  margin-right: -10px;
+}
+
+h3.uppercase {
+  letter-spacing: 6px;
+  margin-right: -6px;
+}
+
+h4.uppercase {
+  letter-spacing: 3px;
+  margin-right: -3px;
+}
+
+/* End of Typography */
+
+/* Forms */
+
+.main-container {
+  clear: both;
+}
 
 input, button, select, textarea {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -286,9 +451,9 @@ select:active, select:focus, select:hover {
   }
 }
 
-/* END OF FORMS */
+/* End of Forms */
 
-/* FOOTER */
+/* Footer & Section */
 
 footer {
   background-color: #1c2331;
@@ -403,76 +568,18 @@ section, footer {
   }
 }
 
-/*END OF FOOTER */
+/*End of footer & Section */
 
-/* IMAGE LAYERS */
+/* Gen css */
 
-.first-about {
-  /* image used */
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('5.0-About\ Us.jpg');
-  padding-top: 140px;
-  /* height used */
-  min-height: 300px;
-  background-size: cover !important;
-  height: 70vh;
-  /* create parallex scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  padding-top: 17%;
+.uppercase {
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
-.first-order {
-  /* image used */
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('order.jpg');
-  padding-top: 140px;
-  /* height used */
-  min-height: 300px;
-  background-size: cover !important;
-  height: 70vh;
-  /* create parallex scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  padding-top: 17%;
-}
+/* End of gen css */
 
-.first-contact {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('contact.jpg');
-  padding-top: 140px;
-  /* height used */
-  min-height: 300px;
-  background-size: cover !important;
-  height: 70vh;
-  /* create parallex scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #000;
-  padding-top: 17%;
-}
-
-@media(max-width:766px) {
-  .first-about {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('5.0-About\ Us.jpg');
-    height: 70vh;
-  }
-  .first-about h2 {
-    padding-top: 55%;
-  }
-  .first-contact h2 {
-    visibility: hidden;
-  }
-}
-
-/* END OF IMAGE LAYERS */
-
-/* NAVIGATION */
+/* Navigation */
 
 .navbar-toggler {
   border: none;
@@ -566,116 +673,76 @@ section, footer {
   }
 }
 
-/* END OF NAVIGATION */
+/* End of navigation */
 
-/* TABBED CONTENT */
+/* Image layers */
 
-/* TYPOGRAPHY */
-
-h2 {
-  font-size: 40px;
-  line-height: 48px;
+.first-about {
+  /* image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('5.0-About\ Us.jpg');
+  padding-top: 140px;
+  /* height used */
+  min-height: 300px;
+  background-size: cover !important;
+  height: 70vh;
+  /* create parallex scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 17%;
 }
 
-h3, h4 {
-  margin-bottom: 24px;
-  margin-top: 0;
-  padding: 0;
-  font-weight: 300;
-  color: #292929;
-  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.first-order {
+  /* image used */
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('order.jpg');
+  padding-top: 140px;
+  /* height used */
+  min-height: 300px;
+  background-size: cover !important;
+  height: 70vh;
+  /* create parallex scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 17%;
 }
 
-@media all and (max-width:766px) {
-  h2 {
-    font-size: 32px;
-    line-height: 40px;
+.first-contact {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('contact.jpg');
+  padding-top: 140px;
+  /* height used */
+  min-height: 300px;
+  background-size: cover !important;
+  height: 70vh;
+  /* create parallex scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  padding-top: 17%;
+}
+
+@media(max-width:766px) {
+  .first-about {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('5.0-About\ Us.jpg');
+    height: 70vh;
   }
-  h3 {
-    font-size: 24px;
-    line-height: 32px;
+  .first-about h2 {
+    padding-top: 55%;
   }
-  h4 {
-    font-size: 18px;
-    line-height: 26px;
-  }
-}
-
-h2.uppercase {
-  letter-spacing: 10px;
-  margin-right: -10px;
-}
-
-h3.uppercase {
-  letter-spacing: 6px;
-  margin-right: -6px;
-}
-
-h4.uppercase {
-  letter-spacing: 3px;
-  margin-right: -3px;
-}
-
-@media all and (max-width:766px) {
-  hr {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-}
-
-/* END OF TYPOGRAPHY */
-
-.text-15, .text-15 li {
-  font-size: 1.2rem !important;
-}
-
-@media all and (max-width: 767px) {
-  p {
-    font-size: 12px;
+  .first-contact h2 {
+    visibility: hidden;
   }
 }
 
-.mb8 {
-  margin-bottom: 8px;
-}
+/*End of Image layers */
 
-.mb {
-  margin-bottom: 10px;
-}
-
-.mb16 {
-  margin-bottom: 16px !important;
-}
-
-.mt48 {
-  margin-top: 48px;
-}
-
-.mt-xs-0 {
-  margin-top: 0 !important;
-}
-
-.mb-xs-16 {
-  margin-bottom: 16px;
-}
-
-.mb64 {
-  margin-bottom: 64px;
-}
-
-.mb-xs-24 {
-  margin-bottom: 24px;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.text-left {
-  text-align: left !important;
-}
-
-/* slider */
+/* Slider */
 
 /* darkens the image */
 
@@ -717,60 +784,29 @@ h4.uppercase {
 }
 
 @media all and (max-width:766px) {
-  .carousel-inner img {
-    width: 100%;
-    height: 445px;
-  }
-}
-
-h1.large {
-  font-size: 90px;
-  line-height: 80px;
-  font-weight: 300;
-  color: #fff;
-}
-
-@media all and (max-width: 990px) {
-  h1.large {
-    font-size: 56px;
-    line-height: 64px;
-  }
-}
-
-@media all and (max-width:766px) {
-  h1.large {
-    font-size: 32px;
-    line-height: 40px;
-    font-weight: 300;
-  }
-}
-
-/* end of slider */
-
-.help-block.with-errors {
-  color: #ff5050;
-  margin-top: 5px;
-}
-
-/* owl */
-
-.owl-title-big {
-  background: rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 5px;
-  line-height: 40px;
-  padding: 15px 50px;
-  text-transform: uppercase;
-  width: 80%
-}
-
-@media all and (max-width:766px) {
   .carousel-caption {
     position: absolute;
     top: 55%;
     transform: translateY(-50%);
+  }
+  @media all and (max-width:766px) {
+    .carousel-inner img {
+      width: 100%;
+      height: 445px;
+    }
+  }
+  /* End of Slider */
+  /* Owl */
+  .owl-title-big {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 40px;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    width: 80%
   }
   .owl-title-big {
     background: rgba(0, 0, 0, 0);
@@ -785,15 +821,7 @@ h1.large {
   }
 }
 
-/* Icons */
-
-.bg-gold {
-  color: #ef7f1a;
-}
-
-.bg-blue {
-  color: rgb(37, 186, 236);
-}
+/* Icon */
 
 .zoom {
   transition: transform .2s;
@@ -809,11 +837,17 @@ h1.large {
   transform: scale(1.5);
 }
 
+/* End of Icon */
+
+/* Diff */
+
 .diff {
   font-family: 'Arapey', serif;
 }
 
-/* store css */
+/* End of Diff */
+
+/* Store */
 
 .store {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(194, 91, 91, 0)), url('mac1.jpg');
@@ -847,6 +881,8 @@ h1.large {
   }
 }
 
+/* End of Store */
+
 /* Error fonts */
 
 #name_errror {
@@ -864,4 +900,5 @@ h1.large {
 #message_error {
   font-family: 'Open Sans Condensed', sans-serif;
 }
-/* End of error styling */
+
+/* End of error fonts*/
