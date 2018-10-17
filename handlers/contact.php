@@ -46,8 +46,8 @@ if (!empty($_POST) && isset($_POST['submit'])) {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    if (trim($username) == "") {
-        $_SESSION['error']['username'] = "Username cannot be blank";
+    if (trim($name) == "") {
+        $_SESSION['error']['username'] = "Name cannot be blank";
     }
     if (trim($phone) == "") {
         $_SESSION['error']['phone'] = "Phone number cannot be blank";
@@ -71,3 +71,4 @@ else {
     header("location: /contact_us.php");
     exit();
 }
+

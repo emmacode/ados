@@ -15,13 +15,16 @@
                 <a href="home.php" class="nav-link">HOME</a>
             </li>
             <li class="nav-item" >
-                <a href="about.php" class="nav-link">ABOUT US</a>
+                <a href="about.php" class="nav-link">ABOUT</a>
             </li>
             <li class="nav-item">
                 <a href="order.php" class="nav-link">ORDER</a>
             </li>
             <li class="nav-item">
-                <a href="contact_us.php" class="nav-link">CONTACT US</a>
+                <a href="store.php" class="nav-link">STORE</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact_us.php" class="nav-link">CONTACT</a>
             </li>
         </ul>
     </div>
@@ -117,10 +120,10 @@
     <div class="select-option">
         <select name="referrer" >
             <option selected value="Default">Select An Option</option>
-            <option value="">Google</option>
-            <option value="">Our Website</option>
-            <option value="">A Friend</option>
-            <option value="">Other</option>
+            <option value="Google">Google</option>
+            <option value="Our Website">Our Website</option>
+            <option value="Friend">A Friend</option>
+            <option value="Other">Other</option>
         </select>
 </div>
 <button type="submit" class="submit mb-3 but" name="submit">Submit Order</button>

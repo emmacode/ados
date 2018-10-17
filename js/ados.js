@@ -1,15 +1,15 @@
-$(document).ready(function () {
+$(document).ready(function() {
     //Change color on scroll
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         $('nav').toggleClass('scrolled', $(this).scrollTop() >= 100);
     });
 
     //tabs script
-    $(".tabbed-content").each(function () {
+    $(".tabbed-content").each(function() {
         $(this).append(
             '<ul class="content"></ul>')
     }),
-        $(".tabs li").each(function () {
+        $(".tabs li").each(function() {
             var a = $(this), b = ""; a.is
                 (".tabs>li:first-child") &&
                 (b = ' class="active"');
@@ -20,7 +20,7 @@ $(document).ready(function () {
                     (".tabbed-content").find
                     (".content").append(c)
         }),
-        $(".tabs li").click(function () {
+        $(".tabs li").click(function() {
             $(this).closest(".tabs").find
                 ("li").removeClass("active"),
                 $(this).addClass("active");
@@ -33,7 +33,7 @@ $(document).ready(function () {
                     (".content>li:nth-of-type(" + a + ")").addClass("active")
         })
     //CHECKBOX SCRIPT
-    $(".checkbox-option").on("click", function () {
+    $(".checkbox-option").on("click", function() {
         $(this).toggleClass("checked");
         var a = $(this).find("input");
         a.prop("checked") === !1 ?
@@ -41,7 +41,7 @@ $(document).ready(function () {
                 ("checked", !1)
     });
     //RADIO BUTTON SCRIPT
-    $(".radio-option").click(function () {
+    $(".radio-option").click(function() {
         var a = $(this).hasClass
             ("checked"), b = $(this).find
                 ("input").attr("name"); a || (
@@ -54,7 +54,7 @@ $(document).ready(function () {
     });
 
     //ORDER VALIDATION
-    $('.submit').click(function (event) {
+    $('.submit').click(function(event) {
         var name = $('.name').val();
         var phone = $('.phone').val();
         var link = $('.link').val();
@@ -120,6 +120,8 @@ function Validate() {
     if (username.value == "") {
         username.style.border = "1px solid red";
         name_error.textContent = "Name is required";
+        name_error.style.color = "red";
+        name_error.style.fontFamily = ""
         username.focus();
         return false;
     }
@@ -127,6 +129,13 @@ function Validate() {
     if (phone.value == "") {
         phone.style.border = "1px solid red";
         phone_error.textContent = "Phone not valid";
+        phone_error.style.color = "red";
+        phone.focus();
+        return false;
+    } else if (phone.value < 11) {
+        phone.style.border = "1px solid red";
+        phone_error.textContent = "Phone mumber is less than 11";
+        phone_error.style.color = "red";
         phone.focus();
         return false;
     }
@@ -134,13 +143,15 @@ function Validate() {
     if (email.value == "") {
         email.style.border = "1px solid red";
         email_error.textContent = "Email is required";
+        email_error.style.color = "red";
         email.focus();
         return false;
     }
     //message validation
     if (message.value == "") {
         message.style.border = "1px solid red";
-        message_error.textContent = "Please write your complain";
+        message_error.textContent = "Please leave us a message";
+        message_error.style.color = "red";
         message.focus();
         return false;
     }
