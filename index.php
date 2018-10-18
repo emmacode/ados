@@ -20,9 +20,9 @@
             <li class="nav-item">
                 <a href="https://adosmint.com/order.php" class="nav-link">ORDER</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a href="https://adosmint.com/store.php" class="nav-link">STORE</a>
-            </li>
+            </li> -->
             <li class="nav-item">
                 <a href="https://adosmint.com/contact_us.php" class="nav-link">CONTACT</a>
             </li>
@@ -132,7 +132,7 @@
       <div class="carousel-item">
           <!-- Person name -->
           <h4 class="font-weight-bold mt-4">John</h4>
-          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>Great! Ayo came to my office to market their services.Indeed quality.</p>
+          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>Great! Ayo came to my office to market their available shoes,I got mine from him.Indeed quality.</p>
       </div>
       <!-- End of fourth slide -->
            </div>

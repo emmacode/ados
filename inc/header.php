@@ -6,11 +6,12 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="google-site-verification" content="n5a0qKsj5TdWJbydz3kbCm78PgWxsAmXwx2ATRGiK0A" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Afolabi Moyinoluwa">
-    <title>Adosmint - No 1 shopping agent in Nigeria.</title>
+    <title>Adosmint - No 1 shopping agency in Nigeria.</title>
     <!-- Logo icon -->
     <link rel="shortcut icon" href="images/favicon.ico">
     <!-- Font Awesome -->

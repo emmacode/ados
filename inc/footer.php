@@ -16,7 +16,7 @@
         <i class="fa fa-facebook white-text mr-4"> </i>
     </a>
         <!--Twitter-->
-    <a class="tw-ic" href="#">
+    <a class="tw-ic" href="https://api.whatsapp.com/send?phone=2348104383073">
         <i class="fa fa-whatsapp white-text mr-4"> </i>
     </a>
         <!--Instagram-->

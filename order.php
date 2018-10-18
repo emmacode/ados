@@ -20,9 +20,9 @@
             <li class="nav-item">
                 <a href="https://adosmint.com/order.php" class="nav-link">ORDER</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a href="https://adosmint.com/store.php" class="nav-link">STORE</a>
-            </li>
+            </li> -->
             <li class="nav-item">
                 <a href="https://adosmint.com/contact_us.php" class="nav-link">CONTACT</a>
             </li>
