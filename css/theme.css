@@ -770,7 +770,7 @@ section, footer {
 
 .carousel-inner img {
   width: 1270px;
-  height: 690px;
+  height: 550px;
 }
 
 .carousel-item p {
@@ -810,7 +810,7 @@ section, footer {
 @media all and (max-width:766px) {
   .carousel-inner img {
     width: 100%;
-    height: 445px;
+    height: 400px;
   }
   .owl-title-big {
     background: rgba(0, 0, 0, 0);

@@ -102,7 +102,7 @@
 <h4 class="text-center uppercase">What our Customers say</h4>
         <hr class="underline">
   <!--Carousel Wrapper-->
-  <div id="multi-item-example" class="carousel testimonial-carousel slide carousel-multi-item mb-5" data-ride="carousel">
+  <div id="multi-item-example" class="carousel testimonial-carousel slide  carousel-multi-item mb-5" data-ride="carousel">
     <!--Slides-->
     <div class="carousel-inner" role="button">
         <div class="row">
@@ -118,14 +118,14 @@
       <div class="carousel-item">
           <!-- Person name -->
           <h4 class="font-weight-bold mt-4">ATOM</h4>
-          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>First time with Adosmint was great. Bought my iphone X and samsung S9 @310/$. #70000 lesser to the price here in Nigeria. </p>
+          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>Adosmint is great. Bought my iphone X @310/$. #70000 lesser to the price here in Nigeria. </p>
       </div>
       <!-- End of second slide -->
       <!-- Third slide -->
       <div class="carousel-item">
           <!-- Person name -->
           <h4 class="font-weight-bold mt-4">Esther</h4>
-          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>One word....WOW!.A great priviledge ordering for my Macbook air for a lesser price.I had a marvellous treat from Moyin.</p>
+          <p class="font-weight-normal"><i class="fa fa-quote-left"></i>One word....WOW!.I bought my Macbook air for a lesser price.I had a marvellous treat from Moyin.</p>
       </div>
       <!-- End of third slide -->
       <!-- Fourth slide -->
@@ -139,6 +139,15 @@
            <div class="col-md-4"></div>
         </div>
       </div>
+      <!-- Left and Right controls -->
+      <a href="#multi-item-example" class="carousel-control-prev" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a href="#multi-item-example" class="carousel-control-next" role="button" data-slide="next">
+          <span class="carosuel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
 </div>
 </section>
 <hr>
