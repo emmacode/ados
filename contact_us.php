@@ -1,27 +1,30 @@
-<?php include ('inc/header.php'); ?>
+<?php include ('inc/header.php') ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top scrolling-navbar" >
 <div class="container">
-    <a href="home.php" class="navbar-brand">
+    <a href="https://adosmint.com" class="navbar-brand">
         <img src="images/Ados-e 3.png" alt="ADOS">
     </a>
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#adosResponsive">
-    <span class="icon-bar top-bar" ></span>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#adosResponsive" aria-controls="adosResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar top-bar" ></span>
         <span class="icon-bar middle-bar" ></span>
         <span class="icon-bar bottom-bar" ></span>
     </button>
     <div class="collapse navbar-collapse" id="adosResponsive">
-        <ul class="navbar-nav  ml-auto">
-            <li class="nav-item" href="#">
-                <a href="home.php" class="nav-link">HOME</a>
+        <ul class="navbar-nav smooth-scroll ml-auto">
+            <li class="nav-item">
+                <a href="https://adosmint.com" class="nav-link">HOME</a>
             </li>
             <li class="nav-item" >
-                <a href="about.php" class="nav-link">ABOUT US</a>
+                <a href="https://adosmint.com/about.php" class="nav-link">ABOUT</a>
             </li>
-           <li class="nav-item">
-               <a href="order.php" class="nav-link">ORDER</a>
-           </li>
             <li class="nav-item">
-                <a href="contact_us.php" class="nav-link">CONTACT US</a>
+                <a href="https://adosmint.com/order.php" class="nav-link">ORDER</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a href="https://adosmint.com/store.php" class="nav-link">STORE</a>
+            </li> -->
+            <li class="nav-item">
+                <a href="https://adosmint.com/contact_us.php" class="nav-link">CONTACT</a>
             </li>
         </ul>
     </div>
@@ -47,15 +50,18 @@
     <img src="images/office.jpeg" class="img-fluid z-depth-1-half" alt="An office image">
     </div>
     <div class="col-md-6 mt-5">
-    <h4 class="uppercase">Get In Touch</h4>
+    <h4 class="uppercase">Keep In Touch</h4>
            <p>
-           At Ados we care about our customers.At Ados we care about our customers.At Ados we care about our customers.At Ados we care about our customers.At Ados we care about our customers.
+           At Adosmiint we care about our customers. <br>
+           Get in touch with us today.
            </p>
            <hr>
            <p>
-               <strong><i class="fa fa-envelope "></i></strong> :  admin@ados.com
+               <strong><i class="fa fa-envelope-o "></i></strong> :  support@adosmint.com
                <br>
-               <strong><i class="fa fa-phone" aria-hidden="true"></i></strong>  : +2349060242202
+               <strong><i class="fa fa-mobile" ></i></strong>  : +2348104383073
+               <br>
+               <strong><i class="fa fa-map-marker" ></i></strong>  : Omole Estate,Mayfair,Ile-Ife.
                <br>
            </p>
     </div>
@@ -92,10 +98,11 @@
                 }
                 ?>
                     <form class="form-group" onsubmit="return Validate()" name="vform" action="/handlers/contact.php" method="post">
-                        <h6 class="uppercase text-center">Send A Message</h6>
+                        <h5 class="uppercase text-center mb-3">Send A Message</h5>
+                        <hr class="underline mb-4">
                         <div>
                         <input type="text" class="textInput" name="username" placeholder="Your Name" value="<?php echo isset($_POST['name']) ? $name : '' ?>">
-                        <div id="name_error" class="val_error alert-danger">
+                        <div id="name_error" class="val_error ">
                         <?php
                         if (isset($_SESSION['error']['username'])) {
                             echo $_SESSION['error']['username'];
@@ -105,7 +112,7 @@
                         </div>
                         <div>
                         <input type="text" class="textInput" name="phone" placeholder="Phone" value="<?php echo isset($_POST['name']) ? $phone : '' ?>">
-                        <div id="phone_error" class="val_error alert-danger">
+                        <div id="phone_error" class="val_error">
                         <?php
                         if (isset($_SESSION['error']['phone'])) {
                             echo $_SESSION['error']['phone'];
@@ -115,7 +122,7 @@
                         </div>
                        <div>
                        <input type="text" class="textInput" name="email" placeholder="Email Address" value="<?php echo isset($_POST['name']) ? $email : '' ?>">
-                       <div id="email_error" class="val_error alert-danger">
+                       <div id="email_error" class="val_error">
                        <?php
                         if (isset($_SESSION['error']['email'])) {
                             echo $_SESSION['error']['email'];
@@ -125,7 +132,7 @@
                        </div>
                         <div>
                         <textarea name="message" rows="4" placeholder="Message" class="textInput"><?php echo isset($_POST['name']) ? $message : '' ?></textarea>
-                        <div id="message_error" class="val_error alert-danger">
+                        <div id="message_error" class="val_error">
                         <?php
                         if (isset($_SESSION['error']['message'])) {
                             echo $_SESSION['error']['message'];
@@ -143,6 +150,3 @@
         </div>
     </section>
    <?php include ('inc/footer.php'); ?>
-
-
-

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://adosmint.com/</loc>
+<priority>1.0</priority>
+<lastmod>2018-10-18T02:33:41+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>https://adosmint.com/about.php</loc>
+<priority>0.8</priority>
+<lastmod>2018-10-18T02:33:43+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>https://adosmint.com/contact_us.php</loc>
+<priority>0.8</priority>
+<lastmod>2018-10-18T02:33:45+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<loc>https://adosmint.com/order.php</loc>
+<priority>0.8</priority>
+<lastmod>2018-10-18T02:33:44+00:00</lastmod>
+<changefreq>Always</changefreq>
+</url>
+</urlset>

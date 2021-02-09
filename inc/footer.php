@@ -16,7 +16,7 @@
         <i class="fa fa-facebook white-text mr-4"> </i>
     </a>
         <!--Twitter-->
-    <a class="tw-ic" href="#">
+    <a class="tw-ic" href="https://api.whatsapp.com/send?phone=2348104383073">
         <i class="fa fa-whatsapp white-text mr-4"> </i>
     </a>
         <!--Instagram-->
@@ -47,7 +47,7 @@
                     </span>
             </li>
             <li>
-                <a href="#">Check this beautiful amazing gucci bag <br> on our blog</a>
+                <a href="https://instagram.com/adosenterprises">Check this beautiful amazing gucci bag <br> on our Instagram post</a>
                     <span class="date">August
                         <span class="number">18,2018</span>
                     </span>
@@ -57,12 +57,10 @@
         <!-- END OF WIDGET -->
     </div>
 
-    <div class="col-md-4 col-lg-4">
-       <div class="widget">
-            <h6 class="title">INSTAGRAM</h6>
-            <hr class="hr">
-        </div>
-        <!-- END OF WIDGET -->
+    <div class="col-md-4 col-lg-4 mb-5">
+    &copy; copyright 2018
+      <br>
+      <i class="fa fa-map-marker"></i> Omole Estate,Mayfair,Ile-Ife. | Adosmint.com - All Rights Reserved.
     </div>
 <!-- END OF COL -->
             </div>
@@ -70,15 +68,17 @@
 <!-- END OF CONTAINER -->
     </footer>
     <!-- JQUERY -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <!-- Bootstrap tooltips -->
-<script type="text/javascript" src="js/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <!-- VALIDATE JS - JQUERY PLUGIN -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
 <!-- Bootstrap Javascript-->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- MDB JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8="
+        crossorigin="anonymous"></script>
         <!-- CUSTOM JAVSCRIPT -->
     <script type="text/javascript" src="js/ados.js" ></script>
 </body>

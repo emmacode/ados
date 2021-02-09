@@ -1,6 +1,7 @@
 <?php
+ob_clean();
+ob_start();
 session_start();
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -12,18 +13,18 @@ require '../vendor/SMTP.php';
 
 function sendEmail(array $data) {
     $mail = new PHPMailer(true);
-    try {
-        $mail->SMTPDebug = 2;
+    try {        
+        $mail->SMTPDebug = 1;
         $mail->isSMTP();
         $mail->Host = SMTP_HOST;
         $mail->SMTPAuth = true;
         $mail->Username = SMTP_USERNAME;
         $mail->Password = SMTP_PASSWORD;
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 25;
+        $mail->Port = 26;
+
     
         //Recipients
-        $mail->addAddress('admin@ados.com', 'Ados Admin');
+        $mail->addAddress('hello@adosmint.com', 'Adosmint!');
         $mail->setFrom(MAILER_FROM, MAILER_FULLNAME);
         $mail->isHTML(true);
         $mail->Subject = 'New Mail from Contact Page';
@@ -46,8 +47,8 @@ if (!empty($_POST) && isset($_POST['submit'])) {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    if (trim($username) == "") {
-        $_SESSION['error']['username'] = "Username cannot be blank";
+    if (trim($name) == "") {
+        $_SESSION['error']['username'] = "Name cannot be blank";
     }
     if (trim($phone) == "") {
         $_SESSION['error']['phone'] = "Phone number cannot be blank";
@@ -71,3 +72,4 @@ else {
     header("location: /contact_us.php");
     exit();
 }
+

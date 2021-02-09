@@ -1,32 +1,36 @@
-<?php include ('inc/header.php'); ?>
+<?php include ('inc/header.php') ?>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top scrolling-navbar" >
 <div class="container">
-    <a href="home.php" class="navbar-brand">
+    <a href="https://adosmint.com" class="navbar-brand">
         <img src="images/Ados-e 3.png" alt="ADOS">
     </a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#adosResponsive" aria-controls="adosResponsive" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="icon-bar top-bar" ></span>
+        <span class="icon-bar top-bar" ></span>
         <span class="icon-bar middle-bar" ></span>
         <span class="icon-bar bottom-bar" ></span>
     </button>
     <div class="collapse navbar-collapse" id="adosResponsive">
         <ul class="navbar-nav smooth-scroll ml-auto">
             <li class="nav-item">
-                <a href="home.php" class="nav-link">HOME</a>
+                <a href="https://adosmint.com" class="nav-link">HOME</a>
             </li>
             <li class="nav-item" >
-                <a href="about.php" class="nav-link">ABOUT US</a>
+                <a href="https://adosmint.com/about.php" class="nav-link">ABOUT</a>
             </li>
             <li class="nav-item">
-                <a href="order.php" class="nav-link">ORDER</a>
+                <a href="https://adosmint.com/order.php" class="nav-link">ORDER</a>
             </li>
+            <!-- <li class="nav-item">
+                <a href="https://adosmint.com/store.php" class="nav-link">STORE</a>
+            </li> -->
             <li class="nav-item">
-                <a href="contact_us.php" class="nav-link">CONTACT US</a>
+                <a href="https://adosmint.com/contact_us.php" class="nav-link">CONTACT</a>
             </li>
         </ul>
     </div>
 </div>
 </nav>
+<!-- /.navbar -->
 <section class="first-order img-fluid">
     
 </section>
@@ -93,7 +97,7 @@
     <p>COMPANY</p>
     <div class="radio-option">
         <div class="inner"></div>
-        <input type="radio" value="company" name="rdn" >
+        <input type="radio" id="company" value="company" name="rdn" >
     </div>
 </div>
 </div>
@@ -103,8 +107,8 @@
 
 <div class="overflow-hidden">
 <h6 class="uppercase">3. YOUR DETAILS</h6>
-<input type="text"  name="name " class="name" placeholder="Your Name*" value="<?php echo isset($_POST['name']) ? $name : '' ?>">
-<input type="text"  name="phone " class="phone" placeholder="Your Phone*" value="<?php echo isset($_POST['name']) ? $phone : '' ?>" >
+<input type="text"  name="name" class="name" placeholder="Your Name*" value="<?php echo isset($_POST['name']) ? $name : '' ?>">
+<input type="text"  name="phone" class="phone" placeholder="Your Phone*" value="<?php echo isset($_POST['name']) ? $phone : '' ?>" >
 
 <input type="text"  class="link" name="link" placeholder="Put Link of Item you want to order here*" value="<?php echo isset($_POST['name']) ? $link : '' ?>" >
 <textarea name="message" id="individual"  data-require-pair="#individual" class="message"  rows="2" placeholder="Type Your Message" ><?php echo isset($_POST['name']) ? $message : '' ?></textarea>
@@ -117,10 +121,10 @@
     <div class="select-option">
         <select name="referrer" >
             <option selected value="Default">Select An Option</option>
-            <option value="">Google</option>
-            <option value="">Our Website</option>
-            <option value="">A Friend</option>
-            <option value="">Other</option>
+            <option value="Google">Search Engines</option>
+            <option value="Our Website">Our Website</option>
+            <option value="Friend">A Friend</option>
+            <option value="Other">Other</option>
         </select>
 </div>
 <button type="submit" class="submit mb-3 but" name="submit">Submit Order</button>
